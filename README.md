@@ -1,1 +1,1 @@
-# simple-civics-desktop
+# Welcome to Simple Civics
