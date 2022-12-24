@@ -1,23 +1,37 @@
 import './App.css';
-import { Home } from './components/Home';
 import React from 'react';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/esm/Navbar';
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
-import { Link } from '../node_modules/react-router-dom/dist/index';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import George from './images/george_w_nav.png'
+import { Home } from './components/Home';
+import { About } from './components/About';
+import { Container } from 'react-bootstrap';
+
 
 const App: React.FC = () => {
   return (
-
     <Router>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar variant='dark' bg='dark'>
+        <Container>
+          <Navbar.Brand>Simple Civics</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/About">About</Nav.Link>
+          </Nav>
+        </Container>
+        <Container>
+          <Nav className='ms-auto'>
+            <Nav.Link href="/">
+              <img src={George} style={{ height: '60px' }}></img>
+            </Nav.Link>
+          </Nav></Container>
+      </Navbar>
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </Router>
   )
