@@ -6,6 +6,7 @@ import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import George from './images/george_w_nav.png'
 import { Home } from './components/Home';
+import { Footer } from './components/Footer/Footer';
 import { About } from './components/About';
 import { Container } from 'react-bootstrap';
 
@@ -28,7 +29,7 @@ const App: React.FC = () => {
             </Nav.Link>
           </Nav></Container>
       </Navbar>
-
+      <Footer />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
