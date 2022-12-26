@@ -1,0 +1,11 @@
+.footer {
+    background-color: rgb(33, 37,41);
+    bottom: 0px;
+    color: white;
+    height: 4vh;
+    position: absolute;
+}
+
+.footerRow {
+    background-color: rgb(33, 37,41);
+}
