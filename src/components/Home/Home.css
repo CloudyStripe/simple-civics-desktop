@@ -1,0 +1,7 @@
+.jumbotron {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/capitol.jpeg");
+    background-size: cover;
+    background-position: center;;
+    color: white;
+    height: 90vh;
+}
