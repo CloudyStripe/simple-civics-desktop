@@ -2,14 +2,14 @@ import './App.css';
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Container } from 'react-bootstrap';
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import George from './images/george_w_nav.png'
 import { Home } from './components/Home/Home';
-import { Footer } from './components/Footer/Footer';
 import { About } from './components/About';
-import { Container } from 'react-bootstrap';
-
+import { Presidents } from './components/Presidents/Presidents';
+import { Footer } from './components/Footer/Footer';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +20,7 @@ const App: React.FC = () => {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/About">About</Nav.Link>
+            <Nav.Link href="/Presidents">Hall of Presidents</Nav.Link>
           </Nav>
         </Container>
         <Container>
@@ -33,6 +34,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
+        <Route path="/Presidents" element={<Presidents />} />
       </Routes>
     </Router>
   )
