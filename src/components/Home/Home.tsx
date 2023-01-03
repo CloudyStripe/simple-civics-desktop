@@ -1,6 +1,6 @@
 import React from "react"
 import { Container } from "react-bootstrap"
-import { SingleButton } from "../Button"
+import { BootstrapButton } from "../BootstrapButton"
 import './Home.css'
 
 export const Home: React.FC = () => {
@@ -9,12 +9,12 @@ export const Home: React.FC = () => {
             <Container>
                 <h1>Accessible, Objective, and Completely Free</h1>
                 <p>Arm yourself with the knowledge and understanding to join the conversation and make a difference</p>
-                <SingleButton
+                <BootstrapButton
                     variant="light"
                     size="lg"
                 >
                     Start Learning
-                </SingleButton>
+                </BootstrapButton>
             </Container>
         </div>
     )
