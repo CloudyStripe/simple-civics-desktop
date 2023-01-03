@@ -8,14 +8,13 @@ export interface ButtonProps {
     children?: React.ReactNode;
 }
 
-export const SingleButton: React.FC<ButtonProps> = ({ children, ...props }) => {
+export const BootstrapButton: React.FC<ButtonProps> = ({ children, ...props }) => {
     const { onClick, variant, size } = props;
     return (
         <Button
             onClick={onClick}
             variant={variant}
             size={size}
-
         >
             {children}
         </Button>
