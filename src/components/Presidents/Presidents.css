@@ -1,0 +1,13 @@
+.firstPresidentMargin {
+    margin-left: 40%;
+}
+
+.flag {
+    bottom: 20px;
+    left: -20px;
+    max-height: 300px;
+    opacity: .5;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;  
+}
