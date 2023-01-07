@@ -9,6 +9,7 @@ import George from './images/george_w_nav.png'
 import { Home } from './components/Home/Home';
 import { About } from './components/About';
 import { Presidents } from './components/Presidents/Presidents';
+import { Learning } from './components/Learning/Learning';
 import { Footer } from './components/Footer/Footer';
 
 const App: React.FC = () => {
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/About">About</Nav.Link>
+            <Nav.Link href="/Learning">Learning</Nav.Link>
             <Nav.Link href="/Presidents">Hall of Presidents</Nav.Link>
           </Nav>
         </Container>
@@ -34,6 +36,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
+        <Route path="/Learning" element={<Learning />} />
         <Route path="/Presidents" element={<Presidents />} />
       </Routes>
     </Router>
