@@ -1,5 +1,10 @@
+.presidentsContainer h4 {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
 .firstPresidentMargin {
-    margin-left: 40%;
+    margin-left: 7%;
 }
 
 .flag {

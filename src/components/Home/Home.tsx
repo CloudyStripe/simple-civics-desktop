@@ -1,9 +1,16 @@
 import React from "react"
 import { Container } from "react-bootstrap"
+import { useNavigate } from "react-router-dom"
 import { BootstrapButton } from "../BootstrapButton"
 import './Home.css'
 
-export const Home: React.FC = () => {
+export const Home: React.FC = (props) => {
+
+    const navigate = useNavigate();
+    const redirectToLearning = () => {
+        navigate('/learning')
+    }
+
     return (
         <div className="jumbotron d-flex align-items-center">
             <Container>
@@ -12,6 +19,7 @@ export const Home: React.FC = () => {
                 <BootstrapButton
                     variant="light"
                     size="lg"
+                    onClick={redirectToLearning}
                 >
                     Start Learning
                 </BootstrapButton>

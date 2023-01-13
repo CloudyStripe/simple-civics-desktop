@@ -14,13 +14,13 @@ export const Learning: React.FC = () => {
             </Container>
             <ScrollContainer horizontal={true} vertical={false}>
                 <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
-                    {lessons.map(x => <BootstrapCard
-                    className="cardSizing"
-                    title={x.title}
-                    body={x.body}
-                    variant="top"
-                    src={Capital}
-                    ></BootstrapCard>
+                    {lessons.map(x => 
+                    <BootstrapCard
+                        className={`cardSizing ${x["lesson-number"] === 1 ? `firstCardMargin` : ``}`}
+                        title={x.title}
+                        body={x.body}
+                        variant="top"
+                        src={Capital}/>
                 )}
                 </Stack>
             </ScrollContainer>

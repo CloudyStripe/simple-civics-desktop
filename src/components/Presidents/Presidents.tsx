@@ -13,7 +13,7 @@ import './Presidents.css';
 export const Presidents: React.FC = () => {
 
     return (
-        <>
+        <div className="presidentsContainer">
             <Container className='d-flex justify-content-between pt-5'>
                 <h1>Hall of Presidents</h1>
                 <BootstrapInput className={'d-flex w-50'} type={'text'} placeholder={'Search Presidents...'}></BootstrapInput>
@@ -25,7 +25,7 @@ export const Presidents: React.FC = () => {
                             rounded={true}
                             height={'400px'}
                             width={'auto'}
-                            src={PresidentPortraitsArray[x.number - 1]}></BootstrapImage><h3>{x.name}</h3>
+                            src={PresidentPortraitsArray[x.number - 1]}></BootstrapImage><h4>{x.name}</h4>
                     </div>)}
                 </Stack>
             </ScrollContainer>
@@ -34,7 +34,7 @@ export const Presidents: React.FC = () => {
                     src={flag}
                 ></BootstrapImage>
             </div>
-        </>
+        </div>
     )
 
 }
