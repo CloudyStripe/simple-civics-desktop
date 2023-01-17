@@ -11,8 +11,12 @@ import { About } from './components/About';
 import { Presidents } from './components/Presidents/Presidents';
 import { Learning } from './components/Learning/Learning';
 import { Footer } from './components/Footer/Footer';
+import { useAuth0 } from "@auth0/auth0-react";
 
 const App: React.FC = () => {
+
+  const { loginWithRedirect } = useAuth0();
+
   return (
     <Router>
       <Navbar variant='dark' bg='dark'>
@@ -23,14 +27,17 @@ const App: React.FC = () => {
             <Nav.Link href="/About">About</Nav.Link>
             <Nav.Link href="/Learning">Learning</Nav.Link>
             <Nav.Link href="/Presidents">Hall of Presidents</Nav.Link>
+            
           </Nav>
         </Container>
         <Container>
           <Nav className='ms-auto'>
+            <Nav.Link className='my-auto' onClick={() => loginWithRedirect()}>Login</Nav.Link>
             <Nav.Link href="/">
-              <img src={George} style={{ height: '60px' }}></img>
+              <img src={George} style={{ height: '60px' }}></img>           
             </Nav.Link>
-          </Nav></Container>
+          </Nav>
+        </Container>
       </Navbar>
       <Footer />
       <Routes>
