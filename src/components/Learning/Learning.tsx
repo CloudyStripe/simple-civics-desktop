@@ -17,12 +17,10 @@ export const Learning: React.FC = () => {
     const [isLoading, setIsLoading] = useState<boolean>(true)
     const { user } = useAuth0();
 
-    debugger;
     useEffect(() => {
         if (user) {
             const retrieveLessons = async () => {
                 const results = await getLessons({ userId: user.email ? user.email : '' })
-                debugger;
                 setLessonStatus(results)
                 setIsLoading(false)
             }
