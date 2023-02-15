@@ -15,7 +15,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 const App: React.FC = () => {
 
-  const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
+  const { loginWithRedirect, logout, isAuthenticated, isLoading } = useAuth0();
 
   return (
     <Router>
@@ -33,12 +33,12 @@ const App: React.FC = () => {
         <Container>
           <Nav className='ms-auto'>
             {
-              !isAuthenticated && (
+              (!isAuthenticated && !isLoading) && (
                 <Nav.Link className='my-auto' onClick={() => loginWithRedirect()}>Login</Nav.Link>
               )
             }
             {
-              isAuthenticated && (
+              (isAuthenticated && !isLoading) && (
                 <Nav.Link className='my-auto' onClick={() => logout()}>Log Out</Nav.Link>
               )
             }
