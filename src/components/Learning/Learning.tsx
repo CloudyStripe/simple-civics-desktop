@@ -8,7 +8,7 @@ import { BootstrapButton } from "../BootstrapButton";
 import { getLessons } from "../../api/LessonsService";
 import { useAuth0 } from "@auth0/auth0-react";
 import lessons from './Lessons.json';
-import './Learning.css';
+import './Learning.scss';
 
 
 export const Learning: React.FC = () => {

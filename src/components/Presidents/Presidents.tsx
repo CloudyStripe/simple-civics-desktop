@@ -7,7 +7,7 @@ import { BootstrapInput } from '../Input/BootstrapInput';
 import { PresidentPortraitsArray } from './PresidentPortraitsExport';
 import presidents from './Presidents.json';
 import flag from '../../images/american-flag.png';
-import './Presidents.css';
+import './Presidents.scss';
 
 
 export const Presidents: React.FC = () => {

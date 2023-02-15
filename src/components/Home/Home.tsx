@@ -2,7 +2,7 @@ import React from "react"
 import { Container } from "react-bootstrap"
 import { useNavigate } from "react-router-dom"
 import { BootstrapButton } from "../BootstrapButton"
-import './Home.css'
+import './Home.scss'
 
 export const Home: React.FC = (props) => {
 
