@@ -7,6 +7,12 @@
     margin-left: 7%;
 }
 
-.learningButton {
+.learningButtonCompleted {
     margin-top: 20px;
+    background-color: green;
+}
+
+.learningButtonNotCompleted {
+    margin-top: 20px;
+    background-color: gray;
 }
