@@ -3,9 +3,8 @@ import { Container, Stack } from "react-bootstrap";
 import { BootstrapCard } from "../Card/BootstrapCard";
 import ScrollContainer from 'react-indiana-drag-scroll';
 import Capital from '../../images/capital.jpeg';
-import { lessonInfo } from "../../api/LessonsService";
+import { lessonInfo, getLessons, udpateLessons } from "../../api/LessonsService";
 import { BootstrapButton } from "../BootstrapButton";
-import { getLessons } from "../../api/LessonsService";
 import { useAuth0 } from "@auth0/auth0-react";
 import lessons from './Lessons.json';
 import './Learning.scss';
@@ -19,8 +18,10 @@ export const Learning: React.FC = () => {
 
     useEffect(() => {
         if (user) {
+
             const retrieveLessons = async () => {
-                const results = await getLessons({ userId: user.email ? user.email : '' })
+                const userEmail = user.email || ''
+                const results = await getLessons(userEmail)
                 setLessonStatus(results)
                 setLoadingLessons(false)
             }
@@ -32,6 +33,30 @@ export const Learning: React.FC = () => {
         }
 
     }, [isLoading])
+
+    const lessonStatusChange = async (lessonIndex: number) => {
+
+        if (user) {
+
+            const userEmail = user.email || ''
+
+            if (lessonStatus === null) {
+                console.log('No lesson status available.');
+                return;
+            }
+
+            const newLessonState = { ...lessonStatus }
+            newLessonState[`lesson${lessonIndex + 1}` as keyof lessonInfo] = !(newLessonState[`lesson${lessonIndex + 1}` as keyof lessonInfo]);
+
+            const confirmation = await udpateLessons(userEmail, newLessonState);
+            console.log(confirmation)
+
+            const results = await getLessons(userEmail)
+            setLessonStatus(results)
+
+        }
+
+    }
 
     return (
         <>
@@ -49,6 +74,7 @@ export const Learning: React.FC = () => {
                                         variant="top"
                                         src={Capital} />
                                     <BootstrapButton
+                                        onClick={() => lessonStatusChange(i)}
                                         className={lessonStatus![`lesson${i + 1}` as keyof lessonInfo] === true ? 'learningButtonCompleted' : 'learningButtonNotCompleted'}
                                         variant="secondary"
                                         size="lg">
