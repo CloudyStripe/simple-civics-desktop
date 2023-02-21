@@ -1,18 +1,21 @@
-.presidentsContainer h4 {
-    padding-top: 20px;
-    font-weight: bold;
-}
+.presidentsContainer {
 
-.firstPresidentMargin {
-    margin-left: 7%;
-}
+    .firstPresidentMargin {
+        margin-left: 7%;
+    }
 
-.flag {
-    bottom: 20px;
-    left: -20px;
-    max-height: 300px;
-    opacity: .5;
-    overflow: hidden;
-    position: absolute;
-    z-index: -1;  
+    .flag {
+        bottom: 20px;
+        left: -20px;
+        max-height: 300px;
+        opacity: .5;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    h4 {
+        padding-top: 20px;
+    }
+
 }
