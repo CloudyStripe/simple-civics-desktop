@@ -15,12 +15,12 @@ export const Presidents: React.FC = () => {
     return (
         <div className="presidentsContainer">
             <Container className='d-flex justify-content-between pt-5'>
-                <h1>Hall of Presidents</h1>
+                <h1 className='presidents-header'>Hall of Presidents</h1>
                 <BootstrapInput className={'d-flex w-50'} type={'text'} placeholder={'Search Presidents...'}></BootstrapInput>
             </Container>
-            <ScrollContainer horizontal={true} vertical={false}>
+            <ScrollContainer className='pt-5' horizontal={true} vertical={false}>
                 <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
-                    {presidents.map(x => <div className={`d-flex flex-column align-items-center ${x.number === 1 ? `firstPresidentMargin` : ``}`}>
+                    {presidents.map(x => <div className={`individual-presidents d-flex flex-column align-items-center ${x.number === 1 ? `firstPresidentMargin` : ``}`}>
                         <BootstrapImage
                             rounded={true}
                             height={'400px'}
