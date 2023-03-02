@@ -12,6 +12,7 @@ import { Presidents } from './components/Presidents/Presidents';
 import { Learning } from './components/Learning/Learning';
 import { Footer } from './components/Footer/Footer';
 import { useAuth0 } from "@auth0/auth0-react";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const App: React.FC = () => {
 
