@@ -7,7 +7,7 @@ import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import George from './images/george_w_nav.png'
 import { Home } from './components/Home/Home';
-import { About } from './components/About';
+import { About } from './components/About/About';
 import { Presidents } from './components/Presidents/Presidents';
 import { Learning } from './components/Learning/Learning';
 import { Footer } from './components/Footer/Footer';

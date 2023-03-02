@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Stack } from 'react-bootstrap';
 import ScrollContainer from 'react-indiana-drag-scroll'
-import { BootstrapImage } from '../Image/Image';
+import { BootstrapImage } from '../Image/BootstrapImage';
 import { BootstrapInput } from '../Input/BootstrapInput';
 import { PresidentPortraitsArray } from './PresidentPortraitsExport';
 import presidents from './Presidents.json';
