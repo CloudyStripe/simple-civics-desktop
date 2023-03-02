@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Stack } from "react-bootstrap";
 import { BootstrapCard } from "../Card/BootstrapCard";
 import ScrollContainer from 'react-indiana-drag-scroll';
-import Capital from '../../images/capital.jpeg';
+import Capitol from '../../images/capitol.jpeg';
 import { lessonInfo, getLessons, udpateLessons } from "../../api/LessonsService";
 import { BootstrapButton } from "../BootstrapButton";
 import { useAuth0 } from "@auth0/auth0-react";
@@ -72,7 +72,7 @@ export const Learning: React.FC = () => {
                                         title={x.title}
                                         body={x.body}
                                         variant="top"
-                                        src={Capital} />
+                                        src={Capitol} />
                                     <BootstrapButton
                                         onClick={() => lessonStatusChange(i)}
                                         className={lessonStatus![`lesson${i + 1}` as keyof lessonInfo] === true ? 'learningButtonCompleted' : 'learningButtonNotCompleted'}
