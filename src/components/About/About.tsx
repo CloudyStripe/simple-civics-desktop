@@ -1,34 +1,27 @@
 import React from "react"
 import Lincoln from '../../images/lincoln-memorial.jpg';
-import { Col, Container, Row } from "react-bootstrap"
 import { BootstrapImage } from "../Image/BootstrapImage";
 import './About.scss'
+import { BootstrapCard } from "../Card/BootstrapCard";
 
 export const About: React.FC = () => {
+
     return (
-        <Container className="container-fluid container-width">
-            <Row>
-                <Col sm={6}>
-                    <h1 className="m-auto pb-4 font-weight-bold header-format">Simply Civics</h1>
-                    <ul>
-                        <li className="mb-4 blue">
-                            <i className="bi-check-lg"></i>
-                            Easy-to-use
-                        </li>                       
-                        <li className="mb-4 black">
-                            <i className="bi-check-lg"></i>
-                            Objective
-                        </li>
-                        <li className="mb-2 red">
-                            <i className="bi-check-lg"></i>
-                            Free
-                        </li>
-                    </ul>
-                </Col>
-                <Col className="lincoln-filter" sm={6}>
-                    <BootstrapImage className="mw-100 lincoln-image" src={Lincoln}></BootstrapImage>
-                </Col>
-            </Row>
-        </Container>
+        <div className="about-container">
+            <div className="d-flex align-items-center mb-5 header-flex">
+                <h1 className="about-header m-auto text-white">About Us</h1>
+            </div>
+            <div className="about-content m-auto position-relative">
+                <BootstrapImage className="border border-dark mw-100 m-auto lincoln-image" src={Lincoln}></BootstrapImage>
+                <BootstrapCard className="position-absolute about-card" title="Simply Civics"> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </BootstrapCard>
+            </div> 
+        </div>
+        
     )
 }
