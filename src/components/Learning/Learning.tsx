@@ -70,9 +70,10 @@ export const Learning: React.FC = () => {
                                     <BootstrapCard
                                         className="cardSizing"
                                         title={x.title}
-                                        body={x.body}
                                         variant="top"
-                                        src={Capitol} />
+                                        src={Capitol} >
+                                            {x.summary}
+                                    </BootstrapCard>
                                     <BootstrapButton
                                         onClick={() => lessonStatusChange(i)}
                                         className={lessonStatus![`lesson${i + 1}` as keyof lessonInfo] === true ? 'learningButtonCompleted' : 'learningButtonNotCompleted'}

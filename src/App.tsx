@@ -49,13 +49,13 @@ const App: React.FC = () => {
           </Nav>
         </Container>
       </Navbar>
-      <Footer />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Learning" element={<Learning />} />
         <Route path="/Presidents" element={<Presidents />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }

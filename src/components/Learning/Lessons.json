@@ -2,36 +2,43 @@
     {
         "lesson-number": 1,
         "title": "Lesson 1",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         "lesson-number": 2,
         "title": "Lesson 2",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         "lesson-number": 3,
         "title": "Lesson 3",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         "lesson-number": 4,
         "title": "Lesson 4",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         "lesson-number": 5,
         "title": "Lesson 5",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         "lesson-number": 6,
         "title": "Lesson 6",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         "lesson-number": 7,
         "title": "Lesson 7",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
@@ -42,6 +49,7 @@
     {
         "lesson-number": 9,
         "title": "Lesson 9",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
 ]

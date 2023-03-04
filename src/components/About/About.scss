@@ -1,44 +1,35 @@
-.black {
-    border-bottom: 6px solid black;
-}
+.about-container {
 
-.blue {
-    color: navy;
-    border-bottom: 6px solid navy;
-}
+    margin-bottom: 200px;
 
-.container-width {
-    margin: 5% 0px 0px 0px;
-    max-width: none;
+    .about-card {
+        height: fit-content;
+        opacity: .9;
+        right: 60%;
+        top: 70%;
+        width: 80%;
+    
+    }
+    
+    .about-header {
+        text-align: center;
+    }
+    
+    .about-content {
+        width: fit-content;
+        margin: auto;
+    }
+    
+    .header-flex {
+        background-color: black;
+        border-bottom-left-radius: 95%;
+        border-bottom-right-radius: 95%;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .lincoln-image {
+        height: 600px;
+    }
+    
 }
-
-.header-format {
-    width: fit-content;
-}
-
-i {
-    margin-right: 10px;
-}
-
-li {
-  font-size: 3em;
-  list-style: none;
-  margin-top: 5px;
-  width: 450px;
-}
-
-.lincoln-image {
-    border-left: 10px solid black;
-    padding-left: 30px;
-}
-
-.red {
-    color: maroon;
-    border-bottom: 6px solid maroon;
-}
-
-ul {
-    margin: auto;
-    width: fit-content;
-}
-
