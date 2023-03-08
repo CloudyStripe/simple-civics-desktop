@@ -1,0 +1,19 @@
+.nav-container {
+    min-height: 75.945px;
+
+    .hamburger-toggle {
+        width: fit-content;
+    }
+
+    @media (max-width: 992px) {
+        .george-logo {
+            position: absolute;
+            top: 0px;
+            right: 12px;
+        }
+
+        .max-width-override {
+            max-width: none;
+        }
+    }
+}
