@@ -44,7 +44,7 @@ const App: React.FC = () => {
           </Navbar.Collapse>
         </Container>
         <Container>
-          <Nav className='ms-auto order-1'>
+          <Nav className='ms-auto'>
             {
               (!isAuthenticated && !isLoading) && (
                 <Nav.Link className='my-auto d-none d-lg-block' onClick={() => loginWithRedirect()}>Login</Nav.Link>
