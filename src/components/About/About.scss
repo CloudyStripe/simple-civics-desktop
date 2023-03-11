@@ -31,5 +31,43 @@
     .lincoln-image {
         height: 600px;
     }
+
+    @media (max-width: 1130px){
+        .about-card {
+            right: 10%;
+        }
+    }
+
+    @media (max-width: 650px){
+        .about-card {
+            font-size: 14px;
+            right: 11%;
+            top: 80%;
+            width: 350px;
+        }
+
+        .lincoln-image {
+            height: 450px;
+        }
+    }
+
+    @media (max-width: 560px){
+        .about-card {
+            margin: auto;
+            margin-top: 30px;
+            position: static !important;
+            width: 350px;
+        }
+
+        .lincoln-image {
+            height: 350px;
+        }
+    }
     
+}
+
+@media (max-width: 560px) {
+    .about-container {
+        margin-bottom: 70px;
+    }
 }

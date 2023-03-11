@@ -22,6 +22,5 @@ export const About: React.FC = () => {
                 </BootstrapCard>
             </div> 
         </div>
-        
     )
 }
