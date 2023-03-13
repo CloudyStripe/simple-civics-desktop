@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import Button from 'react-bootstrap/Button';
 
 export interface ButtonProps {
@@ -9,11 +9,12 @@ export interface ButtonProps {
     variant?: string;
 }
 
-export const BootstrapButton: React.FC<ButtonProps> = ({ children, ...props }) => {
-    const { className, onClick, variant, size } = props;
+export const BootstrapButton = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
+    const { children, className, onClick, variant, size } = props;
     return (
         <Button
             className={className}
+            ref={ref}
             onClick={onClick}
             variant={variant}
             size={size}
@@ -21,4 +22,4 @@ export const BootstrapButton: React.FC<ButtonProps> = ({ children, ...props }) =
             {children}
         </Button>
     )
-}
+})
