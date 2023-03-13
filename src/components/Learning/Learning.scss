@@ -1,3 +1,11 @@
+.animateButtonCompletion {
+    animation: completion 1s ease-in-out;
+}
+
+.animateButtonRemoveCompletion {
+    animation: incompletion 1s ease-in-out
+}
+
 .cardSizing {
     min-width: 400px;
 
@@ -15,4 +23,79 @@
 .learningButtonNotCompleted {
     margin-top: 20px;
     background-color: gray;
+}
+
+@keyframes completion {
+
+    10% {
+        transform: scale(1.05);
+    }
+
+    25% {
+        transform: scale(1.1)
+    }
+
+    40% {
+        transform: scale(1.15)
+    }
+
+    50% {
+        transform: scale(1.2);
+        background-color: green;
+    }
+
+    60% {
+        transform: scale(1.15);
+        background-color: green;
+    }
+
+    75% {
+        transform: scale(1.1);
+        background-color: green;
+    }
+
+    90% {
+        transform: scale(1.05);
+        background-color: green;
+    }
+
+    100% {
+        transform: scale(1.0);
+        background-color: green;
+    }
+}
+
+@keyframes incompletion {
+
+    10% {
+        transform: scale(.95);
+    }
+
+    25% {
+        transform: scale(.9)
+    }
+
+    40% {
+        transform: scale(.85)
+    }
+
+    50% {
+        transform: scale(.8);
+    }
+
+    60% {
+        transform: scale(.85);
+    }
+
+    75% {
+        transform: scale(.9);
+    }
+
+    90% {
+        transform: scale(.95);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
 }
