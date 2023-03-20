@@ -10,6 +10,7 @@ import { About } from './components/About/About';
 import { Presidents } from './components/Presidents/Presidents';
 import { Learning } from './components/Learning/Learning';
 import { Footer } from './components/Footer/Footer';
+import { PresidentDetails} from './components/Presidents/PresidentsDetails';
 import { useAuth0 } from "@auth0/auth0-react";
 import './App.scss';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -66,6 +67,7 @@ const App: React.FC = () => {
         <Route path="/About" element={<About />} />
         <Route path="/Learning" element={<Learning />} />
         <Route path="/Presidents" element={<Presidents />} />
+        <Route path="/PresidentsDetails/:id" element={<PresidentDetails />} />
       </Routes>
       <Footer />
     </Router>
