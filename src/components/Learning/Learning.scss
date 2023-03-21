@@ -1,101 +1,117 @@
-.animateButtonCompletion {
-    animation: completion 1s ease-in-out;
-}
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 
-.animateButtonRemoveCompletion {
-    animation: incompletion 1s ease-in-out
-}
-
-.cardSizing {
-    min-width: 400px;
-
-}
-
-.firstCardMargin {
-    margin-left: 7%;
-}
-
-.learningButtonCompleted {
-    margin-top: 20px;
-    background-color: green;
-}
-
-.learningButtonNotCompleted {
-    margin-top: 20px;
-    background-color: gray;
-}
-
-@keyframes completion {
-
-    10% {
-        transform: scale(1.05);
+.learning-container {
+    .animateButtonCompletion {
+        animation: completion 1s ease-in-out;
+    }
+    
+    .animateButtonRemoveCompletion {
+        animation: incompletion 1s ease-in-out
     }
 
-    25% {
-        transform: scale(1.1)
+    .card-title {
+        font-family: Tangerine;
+        font-weight: bold;
+        font-size: 35px;
     }
-
-    40% {
-        transform: scale(1.15)
+    
+    .cardSizing {
+        min-width: 400px;
     }
-
-    50% {
-        transform: scale(1.2);
+    
+    .firstCardMargin {
+        margin-left: 7%;
+    }
+    
+    .learningButtonCompleted {
+        margin-top: 20px;
         background-color: green;
     }
-
-    60% {
-        transform: scale(1.15);
-        background-color: green;
+    
+    .learningButtonNotCompleted {
+        margin-top: 20px;
+        background-color: gray;
     }
 
-    75% {
-        transform: scale(1.1);
-        background-color: green;
+    h1 {
+        font-size: 50px;
     }
 
-    90% {
-        transform: scale(1.05);
-        background-color: green;
+    h1, .card-title {
+        font-family: Tangerine;
+        font-weight: bold;
     }
-
-    100% {
-        transform: scale(1.0);
-        background-color: green;
+     
+    @keyframes completion {  
+        10% {
+            transform: scale(1.05);
+        }
+    
+        25% {
+            transform: scale(1.1)
+        }
+    
+        40% {
+            transform: scale(1.15)
+        }
+    
+        50% {
+            transform: scale(1.2);
+            background-color: green;
+        }
+    
+        60% {
+            transform: scale(1.15);
+            background-color: green;
+        }
+    
+        75% {
+            transform: scale(1.1);
+            background-color: green;
+        }
+    
+        90% {
+            transform: scale(1.05);
+            background-color: green;
+        }
+    
+        100% {
+            transform: scale(1.0);
+            background-color: green;
+        }
     }
-}
-
-@keyframes incompletion {
-
-    10% {
-        transform: scale(.95);
-    }
-
-    25% {
-        transform: scale(.9)
-    }
-
-    40% {
-        transform: scale(.85)
-    }
-
-    50% {
-        transform: scale(.8);
-    }
-
-    60% {
-        transform: scale(.85);
-    }
-
-    75% {
-        transform: scale(.9);
-    }
-
-    90% {
-        transform: scale(.95);
-    }
-
-    100% {
-        transform: scale(1.0);
+    
+    @keyframes incompletion {
+        10% {
+            transform: scale(.95);
+        }
+    
+        25% {
+            transform: scale(.9)
+        }
+    
+        40% {
+            transform: scale(.85)
+        }
+    
+        50% {
+            transform: scale(.8);
+        }
+    
+        60% {
+            transform: scale(.85);
+        }
+    
+        75% {
+            transform: scale(.9);
+        }
+    
+        90% {
+            transform: scale(.95);
+        }
+    
+        100% {
+            transform: scale(1.0);
+        }
     }
 }
