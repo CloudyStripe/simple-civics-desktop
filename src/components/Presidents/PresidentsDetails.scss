@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
 .details-container {
     .bio-container {
         max-width: 1110px;
@@ -19,6 +21,15 @@
     .star-container {
         width: fit-content;  
         margin: auto;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h1, h2, h3 {
+        font-family: Tangerine;
+        font-weight: bold;
     }
 }
 

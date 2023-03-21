@@ -39,7 +39,7 @@ export const Presidents: React.FC = () => {
     return (
         <div className="presidentsContainer">
             <Container className='d-flex justify-content-between pt-5'>
-                <h1 className='presidents-header'>Hall of Presidents</h1>
+                <h1 className='mb-0'>Hall of Presidents</h1>
                 <BootstrapInput className={'d-flex w-50'} onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleSearch(e.target.value)} type={'text'} placeholder={'Search Presidents...'}></BootstrapInput>
             </Container>
             <ScrollContainer className='pt-5' horizontal={true} vertical={false}>

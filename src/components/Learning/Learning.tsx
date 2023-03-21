@@ -73,7 +73,7 @@ export const Learning: React.FC = () => {
                 buttonCollection.current[lessonIndex]!.innerHTML = ''
                 buttonCollection.current[lessonIndex]?.classList.remove('animateButtonCompletion')
                 buttonCollection.current[lessonIndex]?.classList.remove('animateButtonRemoveCompletion')
-            
+
                 setIsUpdatingLessons(false)
 
             }, 1000)
@@ -81,11 +81,13 @@ export const Learning: React.FC = () => {
     }
 
     return (
-        <>
+        <div className="learning-container">
             {!isLoadingLessons && (
-                <><Container className='d-flex justify-content-between pt-5'>
-                    <h1>{`My Learning`}</h1>
-                </Container><ScrollContainer horizontal={true} vertical={false}>
+                <>
+                    <Container className='d-flex justify-content-between pt-5'>
+                        <h1>My Learning</h1>
+                    </Container>
+                    <ScrollContainer horizontal={true} vertical={false}>
                         <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
                             {lessons.map((x, i) => (
                                 <div key={x["lesson-number"]} className={`d-flex flex-column align-items-center cardSizing ${x["lesson-number"] === 1 ? `firstCardMargin` : ``}`}>
@@ -107,11 +109,12 @@ export const Learning: React.FC = () => {
                                 </div>
                             ))}
                         </Stack>
-                    </ScrollContainer></>
+                    </ScrollContainer>
+                </>
             )}
             {(isLoadingLessons) && (
                 <div>Loading...</div>
             )}
-        </>
+        </div>
     )
 }
