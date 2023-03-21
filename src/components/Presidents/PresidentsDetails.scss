@@ -1,8 +1,24 @@
-.president-info-container {
-    width: fit-content;
+.details-container {
+    .bio-container {
+        max-width: 1110px;
+    }
+
+    .page-end-padding {
+        padding-bottom: 100px;
+    }
+    
+    .president-info-container {
+        width: fit-content;
+    }
+    
+    .quick-facts {
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .star-container {
+        width: fit-content;  
+        margin: auto;
+    }
 }
 
-.quick-facts {
-    height: fit-content;
-    text-align: center;
-}

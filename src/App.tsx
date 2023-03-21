@@ -13,7 +13,6 @@ import { Footer } from './components/Footer/Footer';
 import { PresidentDetails} from './components/Presidents/PresidentsDetails';
 import { useAuth0 } from "@auth0/auth0-react";
 import './App.scss';
-import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const App: React.FC = () => {
 
