@@ -7,14 +7,15 @@ import { BootstrapInput } from '../Input/BootstrapInput';
 import { PresidentPortraitsArray } from './PresidentPortraitsExport';
 import presidents from './Presidents.json';
 import flag from '../../images/american-flag.png';
+import { Link } from 'react-router-dom';
 import './Presidents.scss';
 
 export interface PresidentsInterface {
-    'number': number;
-    'name': string;
-    'vice-president': string;
-    'service-term': string;
-    'biography': string;
+    number: number;
+    name: string;
+    vicePresident: string;
+    serviceTerm: string;
+    biography: string;
 }
 
 export const Presidents: React.FC = () => {
@@ -34,7 +35,6 @@ export const Presidents: React.FC = () => {
             setPresidentsArray(updatedPresidents);
         }
     }
-    
 
     return (
         <div className="presidentsContainer">
@@ -45,11 +45,15 @@ export const Presidents: React.FC = () => {
             <ScrollContainer className='pt-5' horizontal={true} vertical={false}>
                 <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
                     {presidentsArray.map((x, i) => <div className={`individual-presidents d-flex flex-column align-items-center ${i === 0 ? `firstPresidentMargin` : ``}`}>
-                        <BootstrapImage
-                            rounded={true}
-                            height={'400px'}
-                            width={'auto'}
-                            src={PresidentPortraitsArray[x.number - 1]}></BootstrapImage><h4>{x.name}</h4>
+                        <Link to={`/PresidentsDetails/${x.number - 1}`}>
+                            <BootstrapImage
+                                rounded={true}
+                                height={'400px'}
+                                width={'auto'}
+                                src={PresidentPortraitsArray[x.number - 1]}
+                            />
+                        </Link>
+                        <h4>{x.name}</h4>
                     </div>)}
                 </Stack>
             </ScrollContainer>

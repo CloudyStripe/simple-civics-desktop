@@ -12,7 +12,7 @@ export const About: React.FC = () => {
                 <h1 className="about-header m-auto text-white">About Us</h1>
             </div>
             <div className="about-content m-auto position-relative">
-                <BootstrapImage className="border border-dark mw-100 m-auto lincoln-image" src={Lincoln}></BootstrapImage>
+                <BootstrapImage className="border border-dark mw-100 m-auto lincoln-image" rounded={true} src={Lincoln}/>
                 <BootstrapCard className="position-absolute about-card" title="Simply Civics"> 
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
