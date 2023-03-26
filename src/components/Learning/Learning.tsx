@@ -15,7 +15,7 @@ export const Learning: React.FC = () => {
     const [isLoadingLessons, setLoadingLessons] = useState<boolean>(true)
     const [isUpdatingLessons, setIsUpdatingLessons] = useState<boolean>(false)
     const buttonCollection = useRef<(HTMLButtonElement | null)[]>([])
-    const { user, isLoading } = useAuth0();
+    const { user, isLoading, isAuthenticated } = useAuth0();
 
     useEffect(() => {
         if (user) {
@@ -82,38 +82,36 @@ export const Learning: React.FC = () => {
 
     return (
         <div className="learning-container">
-            {!isLoadingLessons && (
-                <>
-                    <Container className='d-flex justify-content-between pt-5'>
-                        <h1>My Learning</h1>
-                    </Container>
-                    <ScrollContainer horizontal={true} vertical={false}>
-                        <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
-                            {lessons.map((x, i) => (
-                                <div key={x["lesson-number"]} className={`d-flex flex-column align-items-center cardSizing ${x["lesson-number"] === 1 ? `firstCardMargin` : ``}`}>
-                                    <BootstrapCard
-                                        className="cardSizing"
-                                        title={x.title}
-                                        variant="top"
-                                        src={Capitol} >
-                                        {x.summary}
-                                    </BootstrapCard>
-                                    <BootstrapButton
-                                        onClick={() => lessonStatusChange(i)}
-                                        className={lessonStatus![`lesson${i + 1}` as keyof lessonInfo] === true ? 'learningButtonCompleted' : 'learningButtonNotCompleted'}
-                                        variant="secondary"
-                                        ref={(buttonRef => (buttonCollection.current[i] = buttonRef))}
-                                        size="lg">
-                                        {lessonStatus![`lesson${i + 1}` as keyof lessonInfo] === true ? 'Completed' : 'Mark Complete'}
-                                    </BootstrapButton>
-                                </div>
-                            ))}
-                        </Stack>
-                    </ScrollContainer>
-                </>
-            )}
-            {(isLoadingLessons) && (
-                <div>Loading...</div>
+            <Container className='d-flex justify-content-between pt-5'>
+                <h1>My Learning</h1>
+            </Container>
+            <ScrollContainer horizontal={true} vertical={false}>
+                <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
+                    {lessons.map((x, i) => (
+                        <div key={x["lesson-number"]} className={`d-flex flex-column align-items-center cardSizing ${x["lesson-number"] === 1 ? `firstCardMargin` : ``}`}>
+                            <BootstrapCard
+                                className="cardSizing"
+                                title={x.title}
+                                variant="top"
+                                src={Capitol} >
+                                {x.summary}
+                            </BootstrapCard>
+                            {user && !isLoadingLessons && (
+                                <BootstrapButton
+                                    onClick={() => lessonStatusChange(i)}
+                                    className={lessonStatus![`lesson${i + 1}` as keyof lessonInfo] === true ? 'learningButtonCompleted' : 'learningButtonNotCompleted'}
+                                    variant="secondary"
+                                    ref={(buttonRef => (buttonCollection.current[i] = buttonRef))}
+                                    size="lg">
+                                    {lessonStatus![`lesson${i + 1}` as keyof lessonInfo] === true ? 'Completed' : 'Mark Complete'}
+                                </BootstrapButton>
+                            )}
+                        </div>
+                    ))}
+                </Stack>
+            </ScrollContainer>
+            {(!isAuthenticated && !isLoading) && (
+                <div className="progressTrackerNotification">Create an account to track your progress...</div>
             )}
         </div>
     )
