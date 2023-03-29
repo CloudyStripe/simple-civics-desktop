@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 
-.learning-container {
+.learningContainer {
     .animateButtonCompletion {
         transition: transform 1s;
         animation: completion 1s ease-in-out;
@@ -24,12 +24,17 @@
     .firstCardMargin {
         margin-left: 7%;
     }
+
+    .imageSkeleton {
+        height: 265px;
+        width: 390px;
+    }
     
     .learningButtonCompleted {
         margin-top: 20px;
         background-color: green;
     }
-    
+ 
     .learningButtonNotCompleted {
         margin-top: 20px;
         background-color: gray;
@@ -40,6 +45,10 @@
         font-weight: bold;
         font-size: 30px;
         margin-left: 7%;
+    }
+
+    .skeletonText span {
+        margin: 5px;
     }
 
     h1 {
