@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Container, Stack } from "react-bootstrap";
+import { Card, Container, Placeholder, Stack } from "react-bootstrap";
 import { BootstrapCard } from "../Card/BootstrapCard";
 import ScrollContainer from 'react-indiana-drag-scroll';
 import Capitol from '../../images/capitol.jpeg';
@@ -79,15 +79,14 @@ export const Learning: React.FC = () => {
             }, 1000)
         }
     }
-
     return (
-        <div className="learning-container">
+        <div className="learningContainer">
             <Container className='d-flex justify-content-between pt-5'>
                 <h1>My Learning</h1>
             </Container>
             <ScrollContainer horizontal={true} vertical={false}>
                 <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
-                    {lessons.map((x, i) => (
+                    {!isLoadingLessons && lessons.map((x, i) => (
                         <div key={x["lesson-number"]} className={`d-flex flex-column align-items-center cardSizing ${x["lesson-number"] === 1 ? `firstCardMargin` : ``}`}>
                             <BootstrapCard
                                 className="cardSizing"
@@ -108,6 +107,55 @@ export const Learning: React.FC = () => {
                             )}
                         </div>
                     ))}
+                    {isLoadingLessons && (
+                        <>
+                            <Card className="cardSizing ms-auto">
+                                <Placeholder className="imageSkeleton m-1" as={Card.Img} />
+                                <Placeholder className="skeletonText" as={Card.Title} animation='glow'>
+                                    <Placeholder xs={7} />
+                                </Placeholder>
+                                <Placeholder className="skeletonText" as={Card.Text} animation='glow'>
+                                    <Placeholder xs={4} /><Placeholder xs={6} />
+                                    <Placeholder xs={7} />
+                                    <Placeholder xs={5} /><Placeholder xs={4} />
+                                </Placeholder>
+                            </Card>
+                            <Card className="cardSizing">
+                                <Placeholder className="imageSkeleton m-1" as={Card.Img} />
+                                <Placeholder className="skeletonText" as={Card.Title} animation='glow'>
+                                    <Placeholder xs={7} />
+                                </Placeholder>
+                                <Placeholder className="skeletonText" as={Card.Text} animation='glow'>
+                                    <Placeholder xs={4} /><Placeholder xs={6} />
+                                    <Placeholder xs={7} />
+                                    <Placeholder xs={5} /><Placeholder xs={4} />
+                                </Placeholder>
+                            </Card>
+                            <Card className="cardSizing">
+                                <Placeholder className="imageSkeleton m-1" as={Card.Img} />
+                                <Placeholder className="skeletonText" as={Card.Title} animation='glow'>
+                                    <Placeholder xs={7} />
+                                </Placeholder>
+                                <Placeholder className="skeletonText" as={Card.Text} animation='glow'>
+                                    <Placeholder xs={4} /><Placeholder xs={6} />
+                                    <Placeholder xs={7} />
+                                    <Placeholder xs={5} /><Placeholder xs={4} />
+                                </Placeholder>
+                            </Card>
+                            <Card className="cardSizing me-auto">
+                                <Placeholder className="imageSkeleton m-1" as={Card.Img} />
+                                <Placeholder className="skeletonText" as={Card.Title} animation='glow'>
+                                    <Placeholder xs={7} />
+                                </Placeholder>
+                                <Placeholder className="skeletonText" as={Card.Text} animation='glow'>
+                                    <Placeholder xs={4} /><Placeholder xs={6} />
+                                    <Placeholder xs={7} />
+                                    <Placeholder xs={5} /><Placeholder xs={4} />
+                                </Placeholder>
+                            </Card>
+                        </>
+                    )
+                    }
                 </Stack>
             </ScrollContainer>
             {(!isAuthenticated && !isLoading) && (
