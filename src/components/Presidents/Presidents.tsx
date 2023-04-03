@@ -29,7 +29,7 @@ export const Presidents: React.FC = () => {
             setPresidentsArray(originalPresidentsArray)
         }
         else{
-            const updatedPresidents = presidentsArray.filter(x => {
+            const updatedPresidents = originalPresidentsArray.filter(x => {
                 return x.name.toLowerCase().includes(e.toLowerCase())
             })
             setPresidentsArray(updatedPresidents);
@@ -38,22 +38,22 @@ export const Presidents: React.FC = () => {
 
     return (
         <div className="presidentsContainer">
-            <Container className='d-flex justify-content-between pt-5'>
-                <h1 className='mb-0'>Hall of Presidents</h1>
-                <BootstrapInput className={'d-flex w-50'} onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleSearch(e.target.value)} type={'text'} placeholder={'Search Presidents...'}></BootstrapInput>
+            <Container className='d-flex align-items-center flex-column flex-sm-row justify-content-between pt-5'>
+                <h1 className='mb-1 mb-sm-0'>Hall of Presidents</h1>
+                <BootstrapInput className={'d-flex my-2 my-sm-0 w-50'} onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleSearch(e.target.value)} type={'text'} placeholder={'Search...'}></BootstrapInput>
             </Container>
-            <ScrollContainer className='pt-5' horizontal={true} vertical={false}>
-                <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
+            <ScrollContainer className='pt-1 pt-sm-4' horizontal={true} vertical={false}>
+                <Stack className="stack" direction="horizontal" gap={5}>
                     {presidentsArray.map((x, i) => <div className={`individual-presidents d-flex flex-column align-items-center ${i === 0 ? `firstPresidentMargin` : ``}`}>
                         <Link to={`/PresidentsDetails/${x.number - 1}`}>
                             <BootstrapImage
+                                className={'portrait'}
                                 rounded={true}
-                                height={'400px'}
                                 width={'auto'}
                                 src={PresidentPortraitsArray[x.number - 1]}
                             />
                         </Link>
-                        <h4>{x.name}</h4>
+                        <h4 className="mb-0">{x.name}</h4>
                     </div>)}
                 </Stack>
             </ScrollContainer>
