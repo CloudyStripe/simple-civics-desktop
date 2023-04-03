@@ -20,10 +20,10 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      <Navbar className="nav-container position-relative" variant='dark' bg='dark' expand="lg">
-        <Container className="max-width-override">
+      <Navbar className="navContainer position-relative" variant='dark' bg='dark' expand="lg">
+        <Container className="maxWidthOverride">
           <Navbar.Brand className="d-none d-lg-inline-block">Simply Civics</Navbar.Brand>
-          <Navbar.Toggle className="hamburger-toggle" />
+          <Navbar.Toggle className="hamburgerToggle" />
           <Navbar.Collapse>
             <Nav className="me-auto">
               {
@@ -55,7 +55,7 @@ const App: React.FC = () => {
                 <Nav.Link className='my-auto d-none d-lg-block' onClick={() => logout()}>Log Out</Nav.Link>
               )
             }
-            <Nav.Link className="george-logo" href="/">
+            <Nav.Link className="georgeLogo" href="/">
               <img src={George} alt="George Washington Logo" style={{ height: '60px' }}></img>
             </Nav.Link>
           </Nav>
