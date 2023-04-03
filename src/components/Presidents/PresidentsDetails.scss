@@ -1,24 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 
-.details-container {
-    .bio-container {
-        max-width: 1110px;
+.detailsContainer {
+    .bioContainer {
+        max-width: 700px;
     }
 
-    .page-end-padding {
+    .fauxBorder {
+        border-bottom: 2px solid black;
+        margin: auto;
+        width: 900px;
+    }
+
+    .pageEndPadding {
         padding-bottom: 100px;
     }
+
+    .presidentImage {
+        height: 500px;
+    }
     
-    .president-info-container {
+    .presidentInfoContainer {
         width: fit-content;
     }
     
-    .quick-facts {
+    .quickFacts {
         height: fit-content;
         text-align: center;
     }
+
+    .quickFactsContainer {
+        width: fit-content
+    }
     
-    .star-container {
+    .starContainer {
         width: fit-content;  
         margin: auto;
     }
@@ -30,6 +44,52 @@
     h1, h2, h3 {
         font-family: Tangerine;
         font-weight: bold;
+    }
+
+    @media(max-width: 1280px) and (max-height: 900px){
+        .presidentImage {
+            height: 320px;
+        }
+
+        .fauxBorder {
+            width: 600px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+    }
+
+    @media(max-width: 992px) and (max-height: 900px){
+        .bioContainer {
+            width: 350px;
+        }
+
+        .colFormat {
+            width: fit-content;
+        }
+
+        .fauxBorder {
+            width: 300px;
+        }
+
+        .imageContainer {
+            width: fit-content;
+        }
+
+        .presidentImage {
+            height: 300px;
+        }
+    }
+
+    @media(max-width: 690px) and (max-height: 680px){
+        .fauxBorder {
+            width: 200px;
+        }
     }
 }
 
