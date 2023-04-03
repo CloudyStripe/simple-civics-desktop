@@ -40,7 +40,7 @@ export const Presidents: React.FC = () => {
         <div className="presidentsContainer">
             <Container className='d-flex align-items-center flex-column flex-sm-row justify-content-between pt-5'>
                 <h1 className='mb-1 mb-sm-0'>Hall of Presidents</h1>
-                <BootstrapInput className={'d-flex my-2 my-sm-0 w-50'} onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleSearch(e.target.value)} type={'text'} placeholder={'Search...'}></BootstrapInput>
+                <BootstrapInput className={'presidentSearch d-flex my-2 my-sm-0 w-50'} onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleSearch(e.target.value)} type={'text'} placeholder={'Search...'}></BootstrapInput>
             </Container>
             <ScrollContainer className='pt-1 pt-sm-4' horizontal={true} vertical={false}>
                 <Stack className="stack" direction="horizontal" gap={5}>
