@@ -8,6 +8,9 @@ export interface lessonInfo {
     lesson7: boolean;
     lesson8: boolean;
     lesson9: boolean;
+    lesson10: boolean;
+    lesson11: boolean;
+    lesson12: boolean;
 }
 
 export const getLessons = async (userID: string): Promise<lessonInfo> => {

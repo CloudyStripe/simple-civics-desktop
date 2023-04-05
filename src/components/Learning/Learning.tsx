@@ -28,6 +28,10 @@ export const Learning: React.FC = () => {
             retrieveLessons();
         }
 
+        if(!user){
+            setLoadingLessons(false)
+        }
+
         return () => {
             setLoadingLessons(true)
         }
@@ -95,7 +99,7 @@ export const Learning: React.FC = () => {
                                 src={Capitol} >
                                 {x.summary}
                             </BootstrapCard>
-                            {user && !isLoadingLessons && (
+                            {user && !isLoadingLessons && lessonStatus !== null && (
                                 <BootstrapButton
                                     onClick={() => lessonStatusChange(i)}
                                     className={lessonStatus![`lesson${i + 1}` as keyof lessonInfo] === true ? 'learningButtonCompleted' : 'learningButtonNotCompleted'}
