@@ -11,6 +11,7 @@ import { Presidents } from './components/Presidents/Presidents';
 import { Learning } from './components/Learning/Learning';
 import { Footer } from './components/Footer/Footer';
 import { PresidentDetails} from './components/Presidents/PresidentsDetails';
+import { Lesson } from './components/Learning/Lesson';
 import { useAuth0 } from "@auth0/auth0-react";
 import './App.scss';
 
@@ -67,6 +68,7 @@ const App: React.FC = () => {
         <Route path="/Learning" element={<Learning />} />
         <Route path="/Presidents" element={<Presidents />} />
         <Route path="/PresidentsDetails/:id" element={<PresidentDetails />} />
+        <Route path="/lesson/:lessonNumber" element={<Lesson />} />
       </Routes>
       <Footer />
     </Router>

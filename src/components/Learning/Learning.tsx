@@ -8,6 +8,7 @@ import { BootstrapButton } from "../BootstrapButton";
 import { useAuth0 } from "@auth0/auth0-react";
 import lessons from './Lessons.json';
 import './Learning.scss';
+import { Link } from "react-router-dom";
 
 export const Learning: React.FC = () => {
 
@@ -92,13 +93,15 @@ export const Learning: React.FC = () => {
                 <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
                     {!isLoadingLessons && lessons.map((x, i) => (
                         <div key={x["lesson-number"]} className={`d-flex flex-column align-items-center cardSizing ${x["lesson-number"] === 1 ? `firstCardMargin` : ``}`}>
-                            <BootstrapCard
-                                className="cardSizing"
-                                title={x.title}
-                                variant="top"
-                                src={Capitol} >
-                                {x.summary}
-                            </BootstrapCard>
+                            <Link to={`/lesson/${x["lesson-number"]}`}>
+                                <BootstrapCard
+                                    className="cardSizing"
+                                    title={x.title}
+                                    variant="top"
+                                    src={Capitol} >
+                                    {x.summary}
+                                </BootstrapCard>
+                            </Link>
                             {user && !isLoadingLessons && lessonStatus !== null && (
                                 <BootstrapButton
                                     onClick={() => lessonStatusChange(i)}

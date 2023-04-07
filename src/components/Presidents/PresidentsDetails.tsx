@@ -39,11 +39,11 @@ export const PresidentDetails: React.FC = () => {
                         <h1 className="pb-3">{selectedPresident ? selectedPresident.name : ''}</h1>
                         <h2 className="pb-3">{selectedPresident ? selectedPresident.vicePresident : ''}</h2>
                         <h3 className="pb-3">{selectedPresident ? selectedPresident.serviceTerm : ''}</h3>
-                        <Container className="d-flex text-center starContainer">
+                        <div className="d-flex text-center starContainer">
                             <Star className="me-3" color="navy" size={25} />
                             <Star size={25} />
                             <Star className="ms-3" color="maroon" size={25} />
-                        </Container>
+                        </div>
                     </div>
                 </Container>
             </Container>
@@ -51,11 +51,11 @@ export const PresidentDetails: React.FC = () => {
             <Container className="bioContainer">
                 <h2 className="text-center py-5">Biography</h2>
                 <p className="pb-5">{selectedPresident ? selectedPresident.biography : ''}</p>
-                <Container className="d-flex text-center starContainer pageEndPadding">
+                <div className="d-flex text-center starContainer pageEndPadding">
                         <Star className="me-3" color="navy" size={25} />
                         <Star size={25} />
                         <Star className="ms-3" color="maroon" size={25} />
-                </Container>
+                </div>
             </Container>
         </div>
     )
