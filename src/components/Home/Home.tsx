@@ -12,18 +12,20 @@ export const Home: React.FC = (props) => {
     }
 
     return (
-        <div className="jumbotron d-flex align-items-center">
-            <Container>
-                <h1>Accessible, Objective, and Completely Free</h1>
-                <p>Arm yourself with the knowledge and understanding to join the conversation and make a difference</p>
-                <BootstrapButton
-                    variant="light"
-                    size="lg"
-                    onClick={redirectToLearning}
-                >
-                    Start Learning
-                </BootstrapButton>
-            </Container>
+        <div className="homeContainer">
+            <div className="jumbotron d-flex align-items-center">
+                <Container>
+                    <h1>Accessible, Objective, and Completely Free</h1>
+                    <p>Arm yourself with the knowledge and understanding to join the conversation and make a difference</p>
+                    <BootstrapButton
+                        variant="light"
+                        size="lg"
+                        onClick={redirectToLearning}
+                    >
+                        Start Learning
+                    </BootstrapButton>
+                </Container>
+            </div>
         </div>
     )
 }
