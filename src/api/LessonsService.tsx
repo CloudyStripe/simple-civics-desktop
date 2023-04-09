@@ -13,9 +13,15 @@ export interface lessonInfo {
     lesson12: boolean;
 }
 
-export const getLessons = async (userID: string): Promise<lessonInfo> => {
+export const getLessons = async (userID: string, accessToken: any): Promise<lessonInfo> => {
     try {
-        const res = await fetch(`http://localhost:3001/getLearning/${userID}`)
+        const res = await fetch(`http://localhost:3001/getLearning/${userID}`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + accessToken
+            }
+        })
         const jsonRes = await res.json();
         return jsonRes;
     }
@@ -24,12 +30,14 @@ export const getLessons = async (userID: string): Promise<lessonInfo> => {
     }
 }
 
-export const udpateLessons = async (userID: string, updatedLesson: lessonInfo): Promise<string> => {
+export const udpateLessons = async (userID: string, updatedLesson: lessonInfo, accessToken: any): Promise<string> => {
+    console.log(JSON.stringify(updatedLesson))
     try {
         const res = await fetch(`http://localhost:3001/updateLearning/${userID}`, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + accessToken
             },
             body: JSON.stringify(updatedLesson)
         })
