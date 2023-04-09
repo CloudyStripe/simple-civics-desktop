@@ -16,13 +16,17 @@ export const Learning: React.FC = () => {
     const [isLoadingLessons, setLoadingLessons] = useState<boolean>(true)
     const [isUpdatingLessons, setIsUpdatingLessons] = useState<boolean>(false)
     const buttonCollection = useRef<(HTMLButtonElement | null)[]>([])
-    const { user, isLoading, isAuthenticated } = useAuth0();
+    const { user, isLoading, isAuthenticated, getAccessTokenSilently } = useAuth0();
 
     useEffect(() => {
         if (user) {
             const retrieveLessons = async () => {
                 const userEmail = user.email || ''
-                const results = await getLessons(userEmail)
+                const accessToken = await getAccessTokenSilently({
+                    audience: 'http://localhost:3001'
+                });
+                debugger;
+                const results = await getLessons(userEmail, accessToken)
                 setLessonStatus(results)
                 setLoadingLessons(false)
             }
@@ -69,9 +73,12 @@ export const Learning: React.FC = () => {
                 const newLessonState = { ...lessonStatus }
                 newLessonState[`lesson${lessonIndex + 1}` as keyof lessonInfo] = !(newLessonState[`lesson${lessonIndex + 1}` as keyof lessonInfo]);
 
-                await udpateLessons(userEmail, newLessonState);
+                const accessToken = await getAccessTokenSilently({
+                    audience: 'http://localhost:3001'
+                })
+                await udpateLessons(userEmail, newLessonState, accessToken)
+                const results = await getLessons(userEmail, accessToken)
 
-                const results = await getLessons(userEmail)
                 setLessonStatus(results)
 
                 buttonCollection.current[lessonIndex]!.style.backgroundColor = ''
