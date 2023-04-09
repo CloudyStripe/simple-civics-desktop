@@ -25,7 +25,6 @@ export const Learning: React.FC = () => {
                 const accessToken = await getAccessTokenSilently({
                     audience: 'http://localhost:3001'
                 });
-                debugger;
                 const results = await getLessons(userEmail, accessToken)
                 setLessonStatus(results)
                 setLoadingLessons(false)
