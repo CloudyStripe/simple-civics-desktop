@@ -3,6 +3,10 @@
         max-width: 700px;
     }
 
+    .hideButton {
+        visibility: hidden;
+    }
+
     .jumbotron {
         height: 350px;
         background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/capitol.jpeg");
@@ -12,6 +16,31 @@
     
     .lessonTitle {
         text-align: center
+    }
+
+    .navButton {
+        background-color: #212529;
+        border: 2px #212529 solid;
+        width: 100px;
+    }
+
+    .navButton:hover {
+        background-color: #f8f9fa;
+        border: 2px #212529 solid;
+        color: #212529;
+        width: 100px;
+    }
+
+    .navButtonMain {
+        background-color: #f8f9fa;
+        color: #212529;
+        height: 40px;
+    }
+
+    .navButtonMain:hover {
+        background-color: #212529;
+        color: #f8f9fa;
+        height: 40px;
     }
 
     .pageEndPadding {
