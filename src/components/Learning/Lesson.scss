@@ -70,4 +70,15 @@
         }
     }
 
+    @media(max-width: 500px){
+        .buttonContainer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navButton {
+            margin: 10px 0px 10px 0px !important;
+        }
+    }
+
 }

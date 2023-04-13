@@ -41,19 +41,19 @@ export const Lesson: React.FC = () => {
                 <Container className="bodyContainer pb-5">
                     {`${lessonBody}`}
                 </Container>
-                <Container className="text-center pb-5">
+                <Container className="buttonContainer text-center pb-5">
                     <Link to={`/lesson/${lastLesson}`}>
-                        <BootstrapButton className={`navButton mx-5 ${convertedLessonNumber === 1 ? `hideButton` : ``}`}>
+                        <BootstrapButton className={`navButton me-5 ${convertedLessonNumber === 1 ? `hideButton` : ``}`}>
                             Back
                         </BootstrapButton>
                     </Link>
                     <Link to="/Learning">
-                        <BootstrapButton className="navButton navButtonMain mx-5">
+                        <BootstrapButton className="navButton navButtonMain">
                             Lessons
                         </BootstrapButton>
                     </Link>
                     <Link to={`/lesson/${nextLesson}`}>
-                        <BootstrapButton className={`navButton mx-5 ${convertedLessonNumber === lessonLength ? `hideButton` : ``}`}>
+                        <BootstrapButton className={`navButton ms-5 ${convertedLessonNumber === lessonLength ? `hideButton` : ``}`}>
                             Next
                         </BootstrapButton>
                     </Link>
