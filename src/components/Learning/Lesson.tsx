@@ -1,9 +1,10 @@
 import React from "react"
 import lessons from './Lessons.json';
 import { Container } from "react-bootstrap";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import './Lesson.scss'
 import { Star } from "react-bootstrap-icons";
+import { BootstrapButton } from "../BootstrapButton";
 
 export interface LessonDetail {
     "lesson-number": number;
@@ -15,15 +16,21 @@ export interface LessonDetail {
 export const Lesson: React.FC = () => {
 
     const { lessonNumber } = useParams();
-
     let currentLesson: LessonDetail | null = null;
+    let convertedLessonNumber: number = 0
     let lessonTitle: string = '';
     let lessonBody: string = '';
+    let lastLesson: number = 0;
+    let nextLesson: number = 0;
+    const lessonLength: number = lessons.length
 
     if (lessonNumber) {
-        currentLesson = lessons[+lessonNumber - 1]
+        convertedLessonNumber = +lessonNumber
+        currentLesson = lessons[convertedLessonNumber - 1]
         lessonTitle = currentLesson["title"]
         lessonBody = currentLesson["body"]
+        lastLesson = convertedLessonNumber - 1;
+        nextLesson = convertedLessonNumber + 1;
     }
 
     return (
@@ -33,6 +40,23 @@ export const Lesson: React.FC = () => {
             <Container>
                 <Container className="bodyContainer pb-5">
                     {`${lessonBody}`}
+                </Container>
+                <Container className="buttonContainer text-center pb-5">
+                    <Link to={`/lesson/${lastLesson}`}>
+                        <BootstrapButton className={`navButton me-5 ${convertedLessonNumber === 1 ? `hideButton` : ``}`}>
+                            Back
+                        </BootstrapButton>
+                    </Link>
+                    <Link to="/Learning">
+                        <BootstrapButton className="navButton navButtonMain">
+                            Lessons
+                        </BootstrapButton>
+                    </Link>
+                    <Link to={`/lesson/${nextLesson}`}>
+                        <BootstrapButton className={`navButton ms-5 ${convertedLessonNumber === lessonLength ? `hideButton` : ``}`}>
+                            Next
+                        </BootstrapButton>
+                    </Link>
                 </Container>
                 <div className="d-flex text-center starContainer pageEndPadding">
                     <Star className="me-3" color="navy" size={25} />
