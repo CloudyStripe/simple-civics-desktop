@@ -3,6 +3,7 @@ import { Card, Container, Placeholder, Stack } from "react-bootstrap";
 import { BootstrapCard } from "../Card/BootstrapCard";
 import ScrollContainer from 'react-indiana-drag-scroll';
 import Capitol from '../../images/capitol.jpeg';
+import { Modal } from "../Modal/Modal";
 import { lessonInfo, getLessons, udpateLessons } from "../../api/LessonsService";
 import { BootstrapButton } from "../BootstrapButton";
 import { useAuth0 } from "@auth0/auth0-react";
@@ -13,10 +14,30 @@ import { Link } from "react-router-dom";
 export const Learning: React.FC = () => {
 
     const [lessonStatus, setLessonStatus] = useState<lessonInfo | null>(null);
-    const [isLoadingLessons, setLoadingLessons] = useState<boolean>(true)
-    const [isUpdatingLessons, setIsUpdatingLessons] = useState<boolean>(false)
-    const buttonCollection = useRef<(HTMLButtonElement | null)[]>([])
+    const [isLoadingLessons, setLoadingLessons] = useState<boolean>(true);
+    const lessonsCompleted = useRef<number>(0)
+    const [isUpdatingLessons, setIsUpdatingLessons] = useState<boolean>(false);
+    const [showModal, setShowModal] = useState<Boolean>(false)
+    const buttonCollection = useRef<(HTMLButtonElement | null)[]>([]);
     const { user, isLoading, isAuthenticated, getAccessTokenSilently } = useAuth0();
+
+    useEffect(() => {
+        let completedCount: number = 0;
+        console.log(completedCount)
+        for(const lesson in lessonStatus){
+            if(lessonStatus[lesson as keyof lessonInfo]){
+                completedCount += 1;
+                console.log(completedCount)
+                console.log(lessons.length)
+            }
+        }
+
+        if(completedCount === lessons.length){
+            console.log('winner winner chicken dinner.')
+            setShowModal(true)
+        }
+
+    }, [lessonStatus])
 
     useEffect(() => {
         if (user) {
@@ -174,6 +195,9 @@ export const Learning: React.FC = () => {
             {(!isAuthenticated && !isLoading) && (
                 <div className="progressTrackerNotification">Create an account to track your progress...</div>
             )}
+            {(showModal && (
+                <div>PLACEHOLDER</div>
+            ))}
         </div>
     )
 }
