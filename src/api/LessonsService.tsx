@@ -31,7 +31,6 @@ export const getLessons = async (userID: string, accessToken: any): Promise<less
 }
 
 export const udpateLessons = async (userID: string, updatedLesson: lessonInfo, accessToken: any): Promise<string> => {
-    console.log(JSON.stringify(updatedLesson))
     try {
         const res = await fetch(`http://localhost:3001/updateLearning/${userID}`, {
             method: 'POST',
