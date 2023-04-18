@@ -146,7 +146,7 @@ export const Learning: React.FC = () => {
                     ))}
                     {isLoadingLessons && (
                         <>
-                            <Card className="cardSizing ms-auto">
+                            <Card className="lastSkeletonStanding ms-auto">
                                 <Placeholder className="imageSkeleton m-1" as={Card.Img} />
                                 <Placeholder className="skeletonText" as={Card.Title} animation='glow'>
                                     <Placeholder xs={7} />
@@ -157,7 +157,7 @@ export const Learning: React.FC = () => {
                                     <Placeholder xs={5} /><Placeholder xs={4} />
                                 </Placeholder>
                             </Card>
-                            <Card className="cardSizing">
+                            <Card className=" firstDisappearance">
                                 <Placeholder className="imageSkeleton m-1" as={Card.Img} />
                                 <Placeholder className="skeletonText" as={Card.Title} animation='glow'>
                                     <Placeholder xs={7} />
@@ -168,7 +168,7 @@ export const Learning: React.FC = () => {
                                     <Placeholder xs={5} /><Placeholder xs={4} />
                                 </Placeholder>
                             </Card>
-                            <Card className="cardSizing">
+                            <Card className=" secondDisappearance">
                                 <Placeholder className="imageSkeleton m-1" as={Card.Img} />
                                 <Placeholder className="skeletonText" as={Card.Title} animation='glow'>
                                     <Placeholder xs={7} />
@@ -179,7 +179,7 @@ export const Learning: React.FC = () => {
                                     <Placeholder xs={5} /><Placeholder xs={4} />
                                 </Placeholder>
                             </Card>
-                            <Card className="cardSizing me-auto">
+                            <Card className=" thirdDisappearance me-auto">
                                 <Placeholder className="imageSkeleton m-1" as={Card.Img} />
                                 <Placeholder className="skeletonText" as={Card.Title} animation='glow'>
                                     <Placeholder xs={7} />
