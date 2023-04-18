@@ -202,7 +202,7 @@ export const Learning: React.FC = () => {
             {(!isAuthenticated && !isLoading) && (
                 <div className="progressTrackerNotification">Create an account to track your progress...</div>
             )}
-            <BootstrapModal title="Congratulations" content={"TEST TEST TEST TEST"} show={showModal}></BootstrapModal>
+            <BootstrapModal className="modalPadding" title="Congratulations" content="TEST TEST TEST TEST" show={showModal}></BootstrapModal>
         </div>
     )
 }
