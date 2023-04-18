@@ -26,8 +26,6 @@ export const Learning: React.FC = () => {
         for(const lesson in lessonStatus){
             if(lessonStatus[lesson as keyof lessonInfo]){
                 completedCount += 1;
-                console.log(completedCount)
-                console.log(lessons.length)
             }
         }
 
@@ -109,8 +107,6 @@ export const Learning: React.FC = () => {
 
         if(lessonStatus){
             if((completedCountRef.current + 1 === lessons.length) && lessonStatus[`lesson${lessonIndex + 1}` as keyof lessonInfo] === false){
-                console.log('winner winner chicken dinner.')
-                console.log(showModal)
                 setShowModal(true)
             }
             else {

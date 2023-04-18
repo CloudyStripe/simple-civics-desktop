@@ -32,7 +32,6 @@ export const BootstrapModal: React.FC<BootstrapModal> = (props) => {
 
     useEffect(() => {
         const modalRoot = document.getElementById("modal")
-        console.log(modalRoot)
         if(modalRef.current){
             modalRoot?.appendChild(modalRef.current);
         }
