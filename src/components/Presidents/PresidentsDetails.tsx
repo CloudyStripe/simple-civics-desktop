@@ -51,7 +51,8 @@ export const PresidentDetails: React.FC = () => {
                         <p>{selectedPresident.biography.paragraph2}</p>
                         <p>{selectedPresident.biography.paragraph3}</p>
                         <p>{selectedPresident.biography.paragraph4}</p>
-                    </> : ''}</div>
+                    </> : ''}
+                </div>
                 <div className="d-flex text-center starContainer pageEndPadding">
                     <Star className="me-3" color="navy" size={25} />
                     <Star size={25} />
