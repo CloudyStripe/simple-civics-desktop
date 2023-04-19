@@ -5,10 +5,39 @@
         max-width: 700px;
     }
 
+    .hideButton {
+        visibility: hidden;
+    }
+
     .fauxBorder {
         border-bottom: 2px solid black;
         margin: auto;
         width: 900px;
+    }
+
+    .navButton {
+        background-color: #212529;
+        border: 2px #212529 solid;
+        width: 100px;
+    }
+
+    .navButton:hover {
+        background-color: #f8f9fa;
+        border: 2px #212529 solid;
+        color: #212529;
+        width: 100px;
+    }
+
+    .navButtonMain {
+        background-color: #f8f9fa;
+        color: #212529;
+        height: 40px;
+    }
+
+    .navButtonMain:hover {
+        background-color: #212529;
+        color: #f8f9fa;
+        height: 40px;
     }
 
     .pageEndPadding {
@@ -89,6 +118,17 @@
     @media(max-width: 690px) and (max-height: 680px){
         .fauxBorder {
             width: 200px;
+        }
+    }
+
+    @media(max-width: 500px){
+        .buttonContainer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navButton {
+            margin: 10px 0px 10px 0px !important;
         }
     }
 }

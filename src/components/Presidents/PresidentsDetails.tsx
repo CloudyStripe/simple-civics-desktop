@@ -1,18 +1,18 @@
 import React from "react"
 import presidents from './Presidents.json';
 import { PresidentPortraitsArray } from './PresidentPortraitsExport';
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { Container } from "react-bootstrap";
 import { BootstrapImage } from "../Image/BootstrapImage";
 import { Star } from 'react-bootstrap-icons'
 import './PresidentsDetails.scss';
 import { PresidentsInterface } from "./Presidents";
-
-
+import { BootstrapButton } from "../BootstrapButton";
 
 export const PresidentDetails: React.FC = () => {
 
     const { id } = useParams();
+
     const convertedId = Number(id)
 
     let selectedPresident: PresidentsInterface | null = null;
@@ -53,6 +53,23 @@ export const PresidentDetails: React.FC = () => {
                         <p>{selectedPresident.biography.paragraph4}</p>
                     </> : ''}
                 </div>
+                <Container className="buttonContainer text-center pb-5">
+                    <Link to={`/PresidentDetails/${convertedId - 1}`}>
+                        <BootstrapButton className={`navButton me-5 ${convertedId === 0 ? `hideButton` : ``}`}>
+                            Back
+                        </BootstrapButton>
+                    </Link>
+                    <Link to="/Presidents">
+                        <BootstrapButton className="navButton navButtonMain">
+                            Presidents
+                        </BootstrapButton>
+                    </Link>
+                    <Link to={`/PresidentsDetails/${convertedId + 1}`}>
+                        <BootstrapButton className={`navButton ms-5 ${convertedId === 45 ? `hideButton` : ``}`}>
+                            Next
+                        </BootstrapButton>
+                    </Link>
+                </Container>
                 <div className="d-flex text-center starContainer pageEndPadding">
                     <Star className="me-3" color="navy" size={25} />
                     <Star size={25} />
