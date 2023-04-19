@@ -4,322 +4,552 @@
         "name": "George Washington",
         "vicePresident": "John Adams",
         "serviceTerm": "Apr. 30, 1789 - Mar. 3, 1797",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "George Washington was born on February 22, 1732, in Westmoreland County, Virginia. He was the eldest son of Augustine Washington and his second wife, Mary Ball Washington. At the age of 11, George's father died, leaving him with a small inheritance of land and slaves. He received a basic education and was trained as a surveyor, which helped him acquire land in the western territories.",
+            "paragraph2": "During the French and Indian War, Washington gained military experience and became a hero after leading his troops to victory against the French. Later, in 1775, he was appointed Commander-in-Chief of the Continental Army during the American Revolution. Despite many setbacks, Washington's leadership skills and determination helped him lead the American army to victory in the Revolutionary War.",
+            "paragraph3": "After the war, Washington was elected as the first President of the United States and served two terms from 1789 to 1797. During his presidency, he established many of the precedents that are still followed today, such as the two-term limit and the use of the title 'Mr. President.' Washington also helped shape the young nation's foreign policy and established the nation's capital in Washington D.C.",
+            "paragraph4": "George Washington died on December 14, 1799, at his Mount Vernon estate in Virginia. He is remembered as one of the Founding Fathers of the United States, a hero of the American Revolution, and a symbol of American patriotism and leadership. His legacy as a military leader and statesman has continued to inspire generations of Americans, and his image has appeared on the one-dollar bill and the quarter coin."
+        }
     },
     {
         "number": 2,
         "name": "John Adams",
         "vicePresident": "Thomas Jefferson",
         "serviceTerm": "Mar. 4, 1797 - Mar. 3, 1801",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "John Adams was born on October 30, 1735, in Braintree, Massachusetts, to a family of farmers and Puritan congregationalists. Adams was a bright student, attending Harvard University at age sixteen, where he studied law and graduated in 1755. He then went on to practice law in Boston and was a passionate advocate for colonial rights, opposing the British Parliament's attempts to impose taxes on the colonies.",
+            "paragraph2": "In 1774, Adams was elected to the Continental Congress, where he played a leading role in advocating for independence from Great Britain. He was a key supporter of the Declaration of Independence and served on the committee responsible for drafting the document. After the Revolutionary War, Adams was appointed as the first United States ambassador to Great Britain, where he worked to improve relations between the two nations.",
+            "paragraph3": "Adams served as vice president under George Washington and was elected as the second president of the United States in 1796. His presidency was marked by tensions with France and the passing of the Alien and Sedition Acts, which limited the rights of immigrants and restricted freedom of speech. However, Adams also successfully avoided war with France and oversaw the peaceful transfer of power to his political rival, Thomas Jefferson, after losing the presidential election of 1800.",
+            "paragraph4": "Throughout his life, Adams was a prolific writer and thinker, leaving behind a legacy of insightful and influential works, including his Defense of the Constitutions of Government of the United States of America and his autobiography. He died on July 4, 1826, exactly fifty years after the signing of the Declaration of Independence, and is remembered as a founding father of the United States and a champion of American independence and democracy."
+        }
     },
     {
         "number": 3,
         "name": "Thomas Jefferson",
         "vicePresident": "Aaron Burr, George Clinton",
         "serviceTerm": "Mar. 4, 1801 - Mar. 3, 1809",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Thomas Jefferson was born on April 13, 1743, in Shadwell, Virginia, to a family of wealthy planters. He attended the College of William and Mary, where he studied law and philosophy, and was heavily influenced by the works of Enlightenment thinkers such as John Locke and Francis Bacon. Jefferson began practicing law in Virginia in 1767, and quickly became involved in local politics, serving in the Virginia House of Burgesses and advocating for colonial rights.",
+            "paragraph2": "Jefferson rose to national prominence as the author of the Declaration of Independence, which he wrote in 1776. The document, which declared the American colonies' independence from Great Britain and asserted the principles of liberty and equality, is now considered one of the most important works of political philosophy in history. Jefferson went on to serve as the governor of Virginia, a member of the Continental Congress, and the United States minister to France.",
+            "paragraph3": "In 1800, Jefferson was elected as the third president of the United States. His presidency was marked by a number of significant achievements, including the Louisiana Purchase, which doubled the size of the United States, and the Lewis and Clark Expedition, which explored the newly acquired western territories. Jefferson also worked to reduce the power of the federal government and promote individual liberty, emphasizing the importance of agrarianism and small government.",
+            "paragraph4": "Despite his many accomplishments, Jefferson's legacy is complicated by his ownership of slaves and his views on race. Although he publicly opposed slavery, he owned hundreds of slaves throughout his life and believed that African Americans were inferior to whites. Nevertheless, Jefferson is remembered as one of the most important figures in American history, a brilliant thinker and writer, and a champion of liberty and democracy. He died on July 4, 1826, the same day as his fellow founding father and political rival, John Adams."
+        }
     },
     {
         "number": 4,
         "name": "James Madison",
         "vicePresident": "George Clinton, Elbridge Gerry",
         "serviceTerm": "Mar. 4, 1809 - Mar. 3, 1817",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "James Madison was born on March 16, 1751, in Port Conway, Virginia, to a wealthy plantation family. He was a bright student, studying at the College of New Jersey (now Princeton University) and graduating in 1771. Madison was deeply influenced by the ideas of the Enlightenment, particularly those of John Locke and Montesquieu, and became involved in politics at an early age.",
+            "paragraph2": "Madison was a key figure in the development of the United States government, playing a leading role in the drafting and ratification of the Constitution. He is often referred to as the 'Father of the Constitution' for his contributions to the document, including the Virginia Plan and the Bill of Rights. Madison also served as a member of the House of Representatives and as Secretary of State under President Thomas Jefferson.",
+            "paragraph3": "In 1808, Madison was elected as the fourth president of the United States. His presidency was marked by a number of important events, including the War of 1812 and the acquisition of Florida from Spain. Madison was also a champion of religious freedom and played a key role in the development of the University of Virginia, which he founded in 1819.",
+            "paragraph4": "Despite his many accomplishments, Madison faced significant challenges during his presidency, including criticism over his handling of the War of 1812 and the controversial decision to impose an embargo on British goods. Nevertheless, Madison is remembered as one of the most important figures in American history, a brilliant political theorist and writer, and a champion of individual rights and democratic government. He died on June 28, 1836, at his home in Virginia."
+        }
     },
     {
         "number": 5,
         "name": "James Monroe",
         "vicePresident": "Daniel D. Tompkins",
         "serviceTerm": "Mar. 4, 1817 - Mar. 3, 1825",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "James Monroe was born on April 28, 1758, in Westmoreland County, Virginia. He was a member of a prominent Virginia family and attended the College of William and Mary. Monroe joined the Continental Army during the American Revolution and was wounded during the Battle of Trenton. He later served in the Virginia legislature and the United States Congress.",
+            "paragraph2": "Monroe is perhaps best known for his presidency, which lasted from 1817 to 1825. His administration was marked by a number of significant events, including the Missouri Compromise, which helped to settle the question of slavery in the western territories, and the Monroe Doctrine, which declared that European powers would no longer be allowed to colonize or interfere in the affairs of the Western Hemisphere. Monroe also oversaw the acquisition of Florida from Spain and worked to improve infrastructure and economic development throughout the United States.",
+            "paragraph3": "Prior to his presidency, Monroe also served as governor of Virginia, ambassador to France, and Secretary of State under President James Madison. He is often remembered as one of the most important figures in American history, a champion of democracy and individual rights, and a key architect of the United States' expansion and influence on the global stage.",
+            "paragraph4": "Despite his many accomplishments, Monroe faced significant challenges during his life, including financial difficulties and personal tragedies. He died on July 4, 1831, at his home in Virginia, exactly fifty-five years after the signing of the Declaration of Independence. Monroe's legacy continues to be celebrated today, with numerous monuments, institutions, and cities named in his honor."
+        }
     },
     {
         "number": 6,
         "name": "John Quincy Adams",
         "vicePresident": "John C. Calhoun",
         "serviceTerm": "Mar. 4, 1825 - Mar. 3, 1829",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "John Quincy Adams was born on July 11, 1767, in Braintree, Massachusetts, to John Adams, the second president of the United States, and Abigail Adams. He was a gifted student, fluent in multiple languages and highly educated in various disciplines. After studying at Harvard University, Adams embarked on a diplomatic career, serving as an envoy to the Netherlands, Prussia, Russia, and Great Britain.",
+            "paragraph2": "In addition to his diplomatic work, Adams also served in a number of political roles throughout his career, including as a member of the House of Representatives, the United States Senate, and as Secretary of State under President James Monroe. In 1824, Adams was elected as the sixth president of the United States, despite losing both the popular vote and the electoral college to Andrew Jackson. His presidency was marked by a number of important initiatives, including the construction of infrastructure projects and the expansion of the federal government's role in education and science.",
+            "paragraph3": "After leaving office, Adams continued to be an active participant in American politics, serving as a congressman from Massachusetts for nearly two decades. He was known for his strong opposition to slavery and his outspoken support for individual rights and democratic government. In 1848, he suffered a stroke on the floor of the House of Representatives and died two days later.",
+            "paragraph4": "Despite facing significant challenges throughout his life, including personal tragedy and political controversy, Adams is remembered as one of the most important figures in American history, a brilliant diplomat and politician, and a tireless advocate for liberty and democracy. His legacy continues to be celebrated today, with numerous monuments, institutions, and cities named in his honor."
+        }
     },
     {
         "number": 7,
         "name": "Andrew Jackson",
         "vicePresident": "John C. Calhoun, Martin Van Buren",
         "serviceTerm": "Mar. 4, 1829 - Mar. 3, 1837",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Andrew Jackson was born on March 15, 1767, in the Waxhaws region of the Carolinas, a few weeks after his father's death. He was largely self-educated and became a successful lawyer in Tennessee before entering politics. Jackson served in both the House of Representatives and the Senate before being appointed as a judge on the Tennessee Supreme Court.",
+            "paragraph2": "Jackson is perhaps best known for his presidency, which lasted from 1829 to 1837. He was the first president to be born in humble circumstances, and his administration was marked by a number of significant events, including the Indian Removal Act, which forcibly relocated Native American tribes from their ancestral lands, and the Nullification Crisis, which pitted Jackson against South Carolina over the issue of states' rights. Jackson also oversaw the expansion of the federal government's power and the development of a more democratic political system.",
+            "paragraph3": "Despite his many accomplishments, Jackson was also a controversial figure, known for his hot temper and his tendency to act impulsively. He faced significant criticism for his treatment of Native Americans and for his use of executive power to override the decisions of Congress and the Supreme Court. Nevertheless, Jackson is remembered as one of the most important figures in American history, a symbol of the growing power of the 'common man,' and a champion of democracy and individual rights",
+            "paragraph4": "Jackson retired to his estate, the Hermitage, after leaving office in 1837. He died on June 8, 1845, and his legacy continues to be debated and celebrated today. Numerous monuments, institutions, and cities bear his name, and his image appears on the twenty-dollar bill."
+        }
     },
     {
         "number": 8,
         "name": "Martin Van Buren",
         "vicePresident": "Richard M. Johnson",
         "serviceTerm": "Mar. 4, 1837 - Mar. 3, 1841",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Martin Van Buren was born on December 5, 1782, in Kinderhook, New York. He was the first president to be born after the American Revolution and the first to be born in the United States rather than a British colony. Van Buren was a lawyer and entered politics in his early twenties, serving in the New York State Senate and as Governor of New York before becoming Secretary of State under President Andrew Jackson.",
+            "paragraph2": "In 1837, Van Buren became the eighth president of the United States, succeeding Jackson. His presidency was marked by a number of significant events, including the Panic of 1837, a severe economic downturn, and the Trail of Tears, the forced relocation of Native American tribes from the southeastern United States. Van Buren also worked to strengthen the power of the federal government and to expand the influence of the Democratic Party.",
+            "paragraph3": "Van Buren faced significant opposition during his presidency, including from members of his own party who were unhappy with his handling of the economic crisis. He was also criticized for his handling of foreign policy and for his reluctance to take strong action against slavery. Despite these challenges, Van Buren is remembered as an important figure in American history, a champion of democracy and individual rights, and a key architect of the modern political system.",
+            "paragraph4": "After leaving office, Van Buren continued to be an active participant in American politics, serving as a leading figure in the Free Soil Party and advocating for the abolition of slavery. He died on July 24, 1862, at his home in New York, and his legacy continues to be celebrated today, with numerous monuments, institutions, and cities named in his honor."
+        }
     },
     {
         "number": 9,
         "name": "William Henry Harrison",
         "vicePresident": "John Tyler",
         "serviceTerm": "Mar. 4, 1841 - Apr. 4, 1841",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "William Henry Harrison was born on February 9, 1773, in Charles City County, Virginia, to a prominent family with ties to the American Revolution. He was educated at Hampden-Sydney College and then studied medicine briefly before deciding to pursue a military career. Harrison served as an officer in the U.S. Army during the Northwest Indian War and the War of 1812, earning fame for his victories at the battles of Tippecanoe and the Thames.",
+            "paragraph2": "In 1836, Harrison ran unsuccessfully for president as the Whig Party candidate, but in 1840 he secured the party's nomination and ran again. His campaign, known as the 'Log Cabin and Hard Cider' campaign, emphasized his humble origins and military heroism, and he won a resounding victory over incumbent President Martin Van Buren. However, Harrison's presidency was short-lived; he developed pneumonia and died on April 4, 1841, just 31 days after taking office.",
+            "paragraph3": "Despite his brief tenure, Harrison is remembered as an important figure in American history, a symbol of the growing power of the Whig Party and the rise of the 'common man' in American politics. He was also an advocate for the expansion of American territory and played a key role in negotiating treaties with Native American tribes.",
+            "paragraph4": "Harrison's legacy continues to be celebrated today, with numerous monuments, institutions, and cities named in his honor. Although he is often overshadowed by the more famous presidents who came before and after him, his brief but eventful presidency remains an important chapter in American history."
+        }    
     },
     {
         "number": 10,
         "name": "John Tyler",
         "vicePresident": "",
         "serviceTerm": "Apr. 6 1841 - Mar. 3, 1845",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "John Tyler was born on March 29, 1790, in Charles City County, Virginia. He graduated from the College of William and Mary and went on to study law. Tyler served in the Virginia state legislature and the U.S. House of Representatives before being elected as Vice President under William Henry Harrison in 1840.",
+            "paragraph2": "When Harrison died just a month after taking office, Tyler became the first Vice President to assume the presidency due to the death of a sitting President. His unexpected presidency was marked by a number of significant events, including the annexation of Texas and the Mexican-American War. Tyler was a strong supporter of states' rights and a strict interpretation of the Constitution, and he clashed with members of his own party over these issues.",
+            "paragraph3": "Tyler also faced significant opposition during his presidency, including from members of the Whig Party who had elected him as Vice President but were unhappy with his policies as President. He vetoed a number of bills and was ultimately expelled from the Whig Party. Tyler served out his term as an independent and was succeeded by James K. Polk in 1845.",
+            "paragraph4": "After leaving office, Tyler returned to his Virginia plantation and continued to be involved in politics. He was a supporter of the Confederacy during the Civil War and was elected to the Confederate Congress in 1861. Tyler died on January 18, 1862, at the age of 71. Despite his controversial presidency, Tyler is remembered as an important figure in American history, a defender of states' rights, and a key player in the annexation of Texas."
+        }       
     },
     {
         "number": 11,
         "name": "James K. Polk",
         "vicePresident": "George M. Dallas",
         "serviceTerm": "Mar. 4 1845 - Mar. 3, 1849",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "James Knox Polk was the 11th President of the United States, serving from 1845 to 1849. Born in North Carolina in 1795, Polk moved to Tennessee with his family as a child. He studied law and entered politics, serving in the Tennessee state legislature and the U.S. House of Representatives.",
+            "paragraph2": "Polk was elected Governor of Tennessee in 1839 and went on to become the Democratic Party's nominee for President in 1844. He campaigned on a platform of territorial expansion and won a close election against Whig candidate Henry Clay. During his presidency, Polk successfully annexed Texas, settled the Oregon boundary dispute with Great Britain, and acquired California and New Mexico from Mexico through the Treaty of Guadalupe Hidalgo.",
+            "paragraph3": "Despite his successes, Polk faced opposition and criticism throughout his presidency. He was accused of being a warmonger for his handling of the Mexican-American War, and his expansionist policies were controversial. Polk chose not to seek re-election in 1848 and retired from politics after leaving office.",
+            "paragraph4": "Polk's legacy is complicated. He achieved many of his campaign goals and expanded the nation's territory significantly, but his policies also contributed to tensions over slavery and played a role in the outbreak of the Civil War. Nonetheless, Polk is remembered as a significant figure in American history and as one of the most successful one-term Presidents in U.S. history."
+        }   
     },
     {
         "number": 12,
         "name": "Zachary Taylor",
         "vicePresident": "Millard Fillmore",
         "serviceTerm": "Mar. 5 1849 - July 9, 1850",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Zachary Taylor was born on November 24, 1784, in Orange County, Virginia. He grew up on the frontier and joined the army at a young age. Taylor served in the War of 1812 and the Black Hawk War before being appointed commander of the Army of the Rio Grande during the Mexican-American War. His success in that conflict made him a national hero and helped propel him to the presidency.",
+            "paragraph2": "Taylor was elected President in 1848, running as a Whig candidate. He was a popular figure, known for his rough-and-tumble style and his blunt, plain-spoken manner. As President, Taylor tried to remain above party politics, but he faced significant challenges during his brief time in office",
+            "paragraph3": "One of Taylor's primary concerns was the issue of slavery. He opposed the expansion of slavery into new territories, but he also believed that the federal government should not interfere with slavery in states where it already existed. This stance put him at odds with many in his own party and contributed to the growing tensions between North and South.",
+            "paragraph4": "Taylor's presidency was cut short when he died suddenly on July 9, 1850, after just 16 months in office. His death remains somewhat of a mystery, with some historians speculating that he may have been poisoned. Despite his brief time in office, Taylor is remembered as a significant figure in American history and as one of the few Presidents with a military background."
+        }   
     },
     {
         "number": 13,
         "name": "Millard Fillmore",
         "vicePresident": "",
         "serviceTerm": "July 10, 1850 - Mar. 3, 1853",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Millard Fillmore was born on January 7, 1800, in Cayuga County, New York. He served in the New York State Assembly and the U.S. House of Representatives before being elected Vice President under Zachary Taylor in 1848. He became President in 1850 after Taylor's death.",
+            "paragraph2": "Fillmore presided over a period of relative stability and prosperity. He signed the Compromise of 1850, which helped defuse tensions between North and South over the issue of slavery. The compromise included provisions that admitted California as a free state, abolished the slave trade in Washington, D.C., and established a more stringent Fugitive Slave Law.",
+            "paragraph3": "However, Fillmore's support for the Fugitive Slave Law and the Gadsden Purchase, which acquired land from Mexico for the purpose of building a southern transcontinental railroad, were deeply unpopular with many Northerners. His willingness to compromise on the issue of slavery also angered abolitionists, who believed that he was not doing enough to fight the institution.",
+            "paragraph4": "Fillmore was not nominated for re-election in 1852 and retired from politics after leaving office. He remained active in public life, however, and was a prominent supporter of the Union during the Civil War. Despite his mixed legacy, Fillmore is remembered as a capable administrator and a committed public servant."
+        }       
     },
     {
         "number": 14,
         "name": "Franklin Pierce",
         "vicePresident": "William R. King",
         "serviceTerm": "Mar. 4, 1853 - Mar. 3, 1857",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Franklin Pierce was born on November 23, 1804, in Hillsborough, New Hampshire. He graduated from Bowdoin College in 1824 and went on to study law. He served in both houses of the New Hampshire legislature before being elected to the U.S. House of Representatives in 1833.",
+            "paragraph2": "Pierce was a strong supporter of President James K. Polk and his policies, particularly the annexation of Texas. He served as a brigadier general during the Mexican-American War and was widely praised for his leadership in battle.",
+            "paragraph3": "In 1852, Pierce was elected President of the United States as a Democrat. He was a compromise candidate who was selected after the Democratic Party failed to agree on a more prominent nominee. Pierce's presidency was marked by a number of controversial policies, including his support for the expansion of slavery into new territories and his enforcement of the Fugitive Slave Act.",
+            "paragraph4": "Despite his initial popularity, Pierce's support for the Kansas-Nebraska Act, which allowed for the possibility of slavery in those territories, caused his approval ratings to plummet. He was not nominated for re-election in 1856 and retired from politics after leaving office."
+        }       
     },
     {
         "number": 15,
         "name": "James Buchanan",
         "vicePresident": "John C. Breckinridge",
         "serviceTerm": "Mar. 4, 1857 - Mar. 3, 1861",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "James Buchanan was born on April 23, 1791, in Cove Gap, Pennsylvania. He graduated from Dickinson College in 1809 and went on to study law. He was admitted to the bar in 1812 and began practicing law in Lancaster, Pennsylvania.",
+            "paragraph2": "Buchanan served in both the Pennsylvania House of Representatives and the U.S. House of Representatives before being appointed Minister to Russia by President Andrew Jackson. He also served as Secretary of State under President James K. Polk.",
+            "paragraph3": "In 1856, Buchanan was elected President of the United States as a Democrat. He faced a number of challenges during his presidency, including the Dred Scott decision, which upheld the legality of slavery in all territories, and the secession of several southern states in the months leading up to the Civil War.",
+            "paragraph4": "Despite his efforts to prevent the Civil War, Buchanan's presidency is widely regarded as a failure. He was criticized for his lack of leadership and inability to take decisive action to address the growing tensions between the North and South. Buchanan left office in 1861 and retired to his home in Wheatland, Pennsylvania, where he lived out the rest of his life."
+        }  
     },
     {
         "number": 16,
         "name": "Abraham Lincoln",
         "vicePresident": "Hannibal Hamlin, Andrew Johnson",
         "serviceTerm": "Mar. 4, 1861 - Apr. 15, 1865",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Abraham Lincoln was born on February 12, 1809, in a log cabin in Hardin County, Kentucky. He spent his early years on the frontier in Kentucky and Indiana before settling in Illinois. He worked as a store clerk, postmaster, and surveyor before becoming a lawyer in 1836.",
+            "paragraph2": "Lincoln served in the Illinois State Legislature and the U.S. House of Representatives before being elected President of the United States in 1860. He was the first Republican president and campaigned on a platform of opposition to the expansion of slavery into new territories.",
+            "paragraph3": "Lincoln's presidency was marked by the Civil War, which began just a few weeks after he took office. He issued the Emancipation Proclamation in 1863, which declared that all slaves in Confederate territory were to be freed. He also delivered his famous Gettysburg Address in 1863, which expressed his dedication to preserving the Union and the principles of democracy.",
+            "paragraph4": "Lincoln was assassinated by John Wilkes Booth on April 14, 1865, just a few days after the Confederate surrender at Appomattox. He is widely regarded as one of the greatest presidents in U.S. history, and his leadership during the Civil War and commitment to ending slavery have made him an enduring symbol of American democracy and freedom."
+        }  
     },
     {
         "number": 17,
         "name": "Andrew Johnson",
         "vicePresident": "",
         "serviceTerm": "Apr. 15, 1865 - Mar. 3 1869",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Andrew Johnson was born on December 29, 1808, in Raleigh, North Carolina. He grew up in poverty and was largely self-taught, having received only a few months of formal education. Johnson worked as a tailor before entering politics.",
+            "paragraph2": "Johnson served in the Tennessee House of Representatives, the U.S. House of Representatives, and the U.S. Senate before being elected Vice President of the United States in 1864. When President Abraham Lincoln was assassinated in 1865, Johnson became President.",
+            "paragraph3": "Johnson's presidency was marked by controversy, as he clashed with the Radical Republicans in Congress over Reconstruction policies. He vetoed several bills that would have extended civil rights and protections to freed slaves, and his attempts to remove Republican officials from office led to his impeachment by the House of Representatives in 1868. He was acquitted by the Senate by a single vote.",
+            "paragraph4": "After leaving office in 1869, Johnson returned to Tennessee and continued to be involved in politics. He was elected to the U.S. Senate in 1875, becoming the first former president to serve in the Senate. Johnson died on July 31, 1875, just a few months after taking office. Despite the controversies of his presidency, Johnson is remembered for his humble beginnings and his commitment to defending the rights of the common people."
+        }      
     },
     {
         "number": 18,
         "name": "Ulysses S. Grant",
         "vicePresident": "Schuyler Colfax, Henry Wilson",
         "serviceTerm": "Mar. 4, 1869 - Mar. 3 1877",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Ulysses S. Grant was born on April 27, 1822, in Point Pleasant, Ohio. He attended West Point Military Academy and served in the Mexican-American War before resigning from the military in 1854. He then struggled to make a living as a farmer and a real estate agent.",
+            "paragraph2": "When the Civil War broke out in 1861, Grant returned to the military as a colonel in the Union Army. He quickly rose through the ranks and became General-in-Chief of the Union Army in 1864. Grant's leadership and military strategies were instrumental in securing Union victories in key battles, including the Battle of Shiloh and the Siege of Vicksburg.",
+            "paragraph3": "After the war, Grant served two terms as President of the United States, from 1869 to 1877. He focused on Reconstruction and civil rights, signing the 15th Amendment to the Constitution, which granted African American men the right to vote. He also worked to reduce government corruption and supported policies to protect the rights of Native Americans.",
+            "paragraph4": "Grant faced several challenges during his presidency, including economic recessions, political scandals, and conflicts with Congress. Despite these challenges, he remained committed to his principles and worked to advance the interests of the American people."
+        }  
     },
     {
         "number": 19,
         "name": "Rutherford B. Hayes",
         "vicePresident": "William A. Wheeler",
         "serviceTerm": "Mar. 4, 1877 - Mar. 3 1881",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Rutherford B. Hayes was born on October 4, 1822, in Delaware, Ohio. He attended Kenyon College and Harvard Law School, where he developed a reputation as a skilled debater and advocate. After practicing law in Ohio, he served in the Union Army during the Civil War and was wounded several times in battle.",
+            "paragraph2": "In 1867, Hayes was elected governor of Ohio and served three terms in that position. During his time as governor, he worked to improve public education and to address the concerns of working-class Americans. He also advocated for civil service reform and the establishment of a sound monetary system.",
+            "paragraph3": "In 1876, Hayes was elected President of the United States in a hotly contested election against Democrat Samuel J. Tilden. Hayes lost the popular vote but won the electoral college after a special commission was created to resolve the disputed results of the election. Hayes' presidency was marked by efforts to reconcile the country after the Civil War, including the withdrawal of federal troops from the South and the establishment of the Civil Service Commission.",
+            "paragraph4": "Hayes also worked to promote civil rights and economic prosperity during his presidency. He signed the Bland-Allison Act, which required the government to purchase a specified amount of silver each month, and he supported efforts to limit the power of large corporations. Despite facing numerous challenges during his presidency, Hayes is remembered for his commitment to social justice and his efforts to unite the country after a divisive period in American history."
+        }  
     },
     {
         "number": 20,
         "name": "James A. Garfield",
         "vicePresident": "Chester A. Arthur",
         "serviceTerm": "Mar. 4, 1881 - Sept. 19, 1881",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "James A. Garfield was born on November 19, 1831, in Orange Township, Ohio. He was the youngest of five children in a family of modest means. Garfield's father died when he was two years old, and he grew up on a farm with his mother and siblings. Despite these challenges, Garfield was a gifted student and was able to attend Williams College in Massachusetts.",
+            "paragraph2": "After college, Garfield returned to Ohio and became a teacher, eventually rising to the position of principal at the Western Reserve Eclectic Institute. He then studied law and was admitted to the bar in 1861. Garfield was elected to the Ohio Senate in 1859 and served as a brigadier general in the Union Army during the Civil War. After the war, he served in the U.S. House of Representatives for nine terms and became a respected member of Congress.",
+            "paragraph3": "In 1880, Garfield was nominated as the Republican candidate for President of the United States. He won a narrow victory over Democrat Winfield S. Hancock and took office in March 1881. Garfield's presidency was short-lived, however, as he was shot by a disgruntled office seeker just four months into his term. Garfield lingered for several weeks before finally succumbing to his injuries on September 19, 1881.",
+            "paragraph4": "Despite his short time in office, Garfield was able to accomplish several significant things during his presidency. He advocated for civil service reform, supported education and the arts, and worked to improve relations with Native American tribes. Garfield's legacy is also tied to his tragic death, which led to calls for reform of the American political system and the establishment of modern medical practices."
+        }  
     },
     {
         "number": 21,
         "name": "Chester A. Arthur",
         "vicePresident": "",
         "serviceTerm": "Sept. 20, 1881 - Mar. 3, 1885",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Chester A. Arthur was born on October 5, 1829, in Fairfield, Vermont. He was the son of a Baptist minister and grew up in upstate New York. Arthur attended Union College in Schenectady, New York, and graduated in 1848. After college, he studied law and was admitted to the bar in 1854.",
+            "paragraph2": "Arthur served in the Union Army during the Civil War, rising to the rank of brigadier general. After the war, he became involved in Republican politics in New York and served as collector of the Port of New York from 1871 to 1878. Arthur was seen as a supporter of the corrupt political machine of Roscoe Conkling, and his appointment as vice president on the Republican ticket with James A. Garfield was seen as a concession to that faction of the party.",
+            "paragraph3": "When Garfield was assassinated in 1881, Arthur was sworn in as president. He surprised many by adopting a reformist agenda, pushing for civil service reform and signing the Pendleton Civil Service Reform Act into law. Arthur also supported legislation that increased tariffs on imported goods, a move that was popular with the business community but led to criticism from labor and consumer groups.",
+            "paragraph4": "Arthur's health began to decline during his presidency, and he did not seek re-election in 1884. He returned to New York City, where he practiced law until his death in 1886. Despite his reputation as a product of the corrupt political machine of New York, Arthur's presidency is remembered for his surprising embrace of reformist policies and his efforts to modernize the American political system."
+        }  
     },
     {
         "number": 22,
         "name": "Grover Cleveland",
         "vicePresident": "Thomas A. Hendricks",
         "serviceTerm": "Mar. 4, 1885 - Mar. 3, 1889",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Grover Cleveland was born on March 18, 1837, in Caldwell, New Jersey. He was the fifth of nine children and spent his childhood in upstate New York. Cleveland did not attend college, but he worked as a teacher and a clerk before studying law and being admitted to the bar in 1859.",
+            "paragraph2": "Cleveland began his political career as a Democrat, serving as sheriff of Erie County, New York, from 1871 to 1873. He was known for his honesty and integrity, earning the nickname 'Grover the Good.' In 1882, Cleveland was elected governor of New York, and his reputation as a reformer and champion of the working class helped him win the Democratic nomination for president in 1884.",
+            "paragraph3": "Cleveland won the election and became the first Democrat to hold the presidency since before the Civil War. He was known for his commitment to civil service reform and his opposition to corruption in government. Cleveland also supported lower tariffs and advocated for free trade, which put him at odds with many members of his own party.",
+            "paragraph4": "Cleveland's first term was marked by a number of notable events, including the Haymarket Riot, the creation of the Interstate Commerce Commission, and the passage of the Dawes Act, which authorized the federal government to divide Native American lands into individual plots. Cleveland lost his bid for re-election in 1888 but won again in 1892, becoming the first president to serve two non-consecutive terms. During his second term, Cleveland faced a severe economic depression and struggled to address the growing unrest among workers and farmers. Despite these challenges, Cleveland remained committed to his principles and worked tirelessly to promote reform and good governance."
+        }  
     },
     {
         "number": 23,
         "name": "Benjamin Harris",
         "vicePresident": "Levi P. Morton",
         "serviceTerm": "Mar. 4, 1889 - Mar. 3, 1893",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Benjamin Harrison was the 23rd President of the United States, serving from 1889 to 1893. Born in North Bend, Ohio, in 1833, he was the grandson of William Henry Harrison, the ninth president of the United States. After graduating from Miami University in 1852, he went on to study law and eventually established a successful legal practice in Indianapolis.",
+            "paragraph2": "Harrison's political career began in the 1860s when he served as a colonel in the Union Army during the Civil War. He later became a U.S. Senator from Indiana and was known for his advocacy of civil rights and education reform. In 1888, he won the Republican nomination for president and went on to defeat incumbent Democrat Grover Cleveland in the general election.",
+            "paragraph3": "As president, Harrison worked to modernize and expand the federal government, signing legislation that created the Department of Agriculture, the Civil Service Commission, and the Sherman Antitrust Act. He also signed the McKinley Tariff, which raised tariffs on imported goods, and oversaw the opening of the Oklahoma Territory for settlement.",
+            "paragraph4": "Despite his accomplishments, Harrison's presidency was marred by economic problems and political divisions within his own party. He lost his bid for re-election in 1892 to Democrat Grover Cleveland, becoming the second president in U.S. history to be defeated in a bid for a second term. After leaving office, Harrison returned to his law practice and remained active in Republican politics until his death in 1901."
+        }  
     },
     {
         "number": 24,
         "name": "Grover Cleveland",
         "vicePresident": "Adlai E. Stevenson",
         "serviceTerm": "Mar. 4, 1893 - Mar. 3, 1897",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Grover Cleveland was born on March 18, 1837, in Caldwell, New Jersey. He was the fifth of nine children and spent his childhood in upstate New York. Cleveland did not attend college, but he worked as a teacher and a clerk before studying law and being admitted to the bar in 1859.",
+            "paragraph2": "Cleveland began his political career as a Democrat, serving as sheriff of Erie County, New York, from 1871 to 1873. He was known for his honesty and integrity, earning the nickname 'Grover the Good.' In 1882, Cleveland was elected governor of New York, and his reputation as a reformer and champion of the working class helped him win the Democratic nomination for president in 1884.",
+            "paragraph3": "Cleveland won the election and became the first Democrat to hold the presidency since before the Civil War. He was known for his commitment to civil service reform and his opposition to corruption in government. Cleveland also supported lower tariffs and advocated for free trade, which put him at odds with many members of his own party.",
+            "paragraph4": "Cleveland's first term was marked by a number of notable events, including the Haymarket Riot, the creation of the Interstate Commerce Commission, and the passage of the Dawes Act, which authorized the federal government to divide Native American lands into individual plots. Cleveland lost his bid for re-election in 1888 but won again in 1892, becoming the first president to serve two non-consecutive terms. During his second term, Cleveland faced a severe economic depression and struggled to address the growing unrest among workers and farmers. Despite these challenges, Cleveland remained committed to his principles and worked tirelessly to promote reform and good governance."
+        }  
     },
     {
         "number": 25,
         "name": "William McKinley",
         "vicePresident": "Garret A. Hobart, Theodore Roosevelt",
         "serviceTerm": "Mar. 4, 1897 - Sep. 14, 1901",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "William McKinley was born in Niles, Ohio in 1843. He served in the Union Army during the Civil War and later studied law, opening a successful practice in Canton, Ohio. McKinley became involved in politics and was elected to Congress in 1876, where he served for 14 years before being elected governor of Ohio in 1891.",
+            "paragraph2": "In 1896, McKinley ran for president as the candidate of the Republican Party. He campaigned on a platform of economic growth and prosperity, promising to protect American industry and raise tariffs on foreign goods. McKinley won a decisive victory in the election, defeating his opponent, William Jennings Bryan, by a wide margin.",
+            "paragraph3": "As president, McKinley presided over a period of economic growth and expansion. He signed the Dingley Tariff Act, which raised tariffs to their highest level in history, and oversaw the annexation of Hawaii and the acquisition of Puerto Rico and Guam after the Spanish-American War. However, McKinley's second term was cut short by his assassination in 1901.",
+            "paragraph4": "McKinley was shot by an anarchist while attending the Pan-American Exposition in Buffalo, New York. He died of his wounds eight days later, becoming the third U.S. president to be assassinated. Today, McKinley is remembered as a successful president who oversaw a period of economic prosperity and expanded American influence overseas. His image is featured on the $500 bill, which has not been printed since 1934."
+        }  
     },
     {
         "number": 26,
         "name": "Theodore Roosevelt",
         "vicePresident": "Charles W. Fairbanks",
         "serviceTerm": "Sept 14, 1901 - Mar. 3 1909",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "The 26th President of the United States was Theodore Roosevelt, who served from 1901 to 1909. Born in 1858 in New York City, Roosevelt was a sickly child who nevertheless grew up to become a man of great physical strength and vigor. He attended Harvard University, where he excelled in a wide range of activities, including boxing and rowing, before going on to study law at Columbia University.",
+            "paragraph2": "Roosevelt's political career began in 1882, when he was elected to the New York State Assembly. He quickly gained a reputation as a reformer and was appointed to the U.S. Civil Service Commission in 1889 by President Benjamin Harrison. He later served as Assistant Secretary of the Navy under President William McKinley, during which time he oversaw the building of a modern U.S. Navy.",
+            "paragraph3": "Roosevelt became president in 1901 following the assassination of McKinley. As president, he was a strong advocate for progressive reforms, including trust-busting, conservation, and consumer protection. He also pursued an active foreign policy, promoting American interests abroad and mediating an end to the Russo-Japanese War. Roosevelt was a colorful and charismatic figure, known for his love of nature and his trademark mustache.",
+            "paragraph4": "After leaving office in 1909, Roosevelt embarked on a series of adventures, including a trip down the Amazon River and a safari in Africa. He returned to politics in 1912, running for president as a third-party candidate on the Progressive Party ticket. Although he did not win, he helped to split the Republican vote, paving the way for the election of Democrat Woodrow Wilson. Roosevelt remained active in politics and public life until his death in 1919."
+        }      
     },
     {
         "number": 27,
         "name": "William H. Taft",
         "vicePresident": "James S. Sherman",
         "serviceTerm": "Mar. 4, 1909 - Mar. 3, 1913",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "William Howard Taft was born on September 15, 1857, in Cincinnati, Ohio, into a politically active family. His father was a prominent judge and his mother was involved in charitable work. Taft attended Yale University and studied law at the University of Cincinnati. He was appointed as a judge in Ohio at the age of 34 and then served as Solicitor General of the United States, a judge on the U.S. Court of Appeals, and Governor-General of the Philippines before being elected President in 1908.",
+            "paragraph2": "Taft was known for his careful, deliberate approach to governance and his support of the rule of law. He sought to improve the efficiency of the federal government by creating a postal savings system, regulating industry, and establishing the Children's Bureau to protect young workers. He also worked to promote international arbitration and establish the U.S. as a world power.",
+            "paragraph3": "Taft's presidency was not without controversy, however. He faced opposition from progressives who saw him as too conservative and from conservatives who saw him as too moderate. His support of the Payne-Aldrich Tariff, which raised taxes on imported goods, also drew criticism. Taft ultimately lost his bid for re-election in 1912 to Woodrow Wilson.",
+            "paragraph4": "After leaving office, Taft taught law at Yale University and served as the Chief Justice of the Supreme Court from 1921 until his death in 1930. He is remembered as a conscientious public servant who worked to uphold the law and promote the interests of the United States at home and abroad."
+        }  
     },
     {
         "number": 28,
         "name": "Woodrow Wilson",
         "vicePresident": "Thomas R. Marshall",
         "serviceTerm": "Mar. 4, 1913 - Mar. 3, 1921",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Woodrow Wilson was born on December 28, 1856, in Staunton, Virginia, to a Presbyterian minister and his wife. Wilson attended Princeton University, where he excelled as a student and later served as the university's president. He went on to earn a law degree from the University of Virginia and practiced law for several years before turning to politics.",
+            "paragraph2": "Wilson began his political career as a professor at Bryn Mawr College and then as the president of Princeton University. He was elected governor of New Jersey in 1910, where he gained a reputation as a progressive reformer. Wilson was elected President of the United States in 1912, defeating both Republican President William Howard Taft and Progressive Party candidate Theodore Roosevelt.",
+            "paragraph3": "During his first term in office, Wilson implemented a series of progressive reforms, including the creation of the Federal Reserve System and the establishment of the Federal Trade Commission. He also signed into law the Clayton Antitrust Act and the Keating-Owen Child Labor Act, which banned child labor in factories. Wilson's foreign policy was marked by his efforts to keep the United States out of World War I, but he ultimately led the country into the conflict in 1917.",
+            "paragraph4": "In 1919, Wilson traveled to Paris to negotiate the Treaty of Versailles, which ended World War I. He played a leading role in the establishment of the League of Nations, an international organization designed to promote peace and prevent future wars. Despite his efforts, however, the United States never joined the League, and Wilson's failure to secure its ratification in the Senate marked a major defeat for his administration. Wilson suffered a stroke in 1919 and was largely incapacitated for the remainder of his presidency. He retired from politics in 1921 and died in 1924."
+        }  
     },
     {
         "number": 29,
         "name": "Warren G. Harding",
         "vicePresident": "Calvin Coolidge",
         "serviceTerm": "Mar. 4, 1921 - Aug.2, 1923",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Warren G. Harding was born on November 2, 1865, in Corsica, Ohio. He was the eldest of eight children and grew up in a rural setting. His father was a farmer and his mother was a midwife. Despite the family's modest means, Harding was able to attend college at Ohio Central College in Iberia, Ohio. However, he did not finish his degree and returned to Corsica to work as a newspaper publisher.",
+            "paragraph2": "In 1891, Harding married Florence Kling DeWolfe, who was divorced and had a son. The couple did not have any children together. Florence was an ambitious and talented woman who supported her husband's political career and played an active role in his presidency. Harding entered politics in 1899 as a Republican and was elected to the Ohio Senate. He served in the Senate until 1903 and then ran unsuccessfully for lieutenant governor of Ohio. He later became the editor and publisher of the Marion Star newspaper in Marion, Ohio.",
+            "paragraph3": "Harding was elected to the U.S. Senate in 1914, where he served until 1921. In 1920, he was nominated by the Republican Party as their presidential candidate. Harding ran on a platform of 'normalcy,' promising to return the country to the way it was before World War I. He won the election in a landslide, defeating Democratic candidate James Cox.",
+            "paragraph4": "Harding's presidency was marked by scandal, including the Teapot Dome scandal, in which his administration was accused of accepting bribes in exchange for oil drilling rights on federal lands. Despite this, Harding was well-liked by the public and is often remembered for his affable personality and his efforts to promote peace and disarmament. He died suddenly in 1923 while on a speaking tour in California, and was succeeded by his vice president, Calvin Coolidge."
+        }  
     },
     {
         "number": 30,
         "name": "Calvin Coolidge",
         "vicePresident": "Charles G. Davis",
         "serviceTerm": "Aug. 3, 1923 - Mar. 3, 1929",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Calvin Coolidge was born in Plymouth Notch, Vermont in 1872. He was raised by a thrifty and hardworking family, and this upbringing helped shape his own frugal and conservative values. After graduating from Amherst College in Massachusetts, he became a lawyer and then entered politics, serving as the mayor of Northampton, Massachusetts and later as the governor of Massachusetts. In 1923, he was unexpectedly thrust into the presidency after President Warren G. Harding died of a heart attack.",
+            "paragraph2": "Coolidge is perhaps best known for his laissez-faire economic policies, which emphasized reducing government intervention in the economy and promoting individual initiative and private enterprise. He believed that the government's role should be limited to ensuring that markets were free and open, and that people had the freedom to pursue their own economic interests. During his presidency, he signed a number of bills that cut taxes and reduced government spending.",
+            "paragraph3": "Coolidge's presidency was also marked by his efforts to improve civil rights and protect the rights of African Americans. He spoke out against lynching and signed legislation that increased federal funding for historically black colleges and universities. He was also a strong advocate for Native American rights, signing the Indian Citizenship Act in 1924, which granted citizenship to all Native Americans born in the United States.",
+            "paragraph4": "Despite his many achievements, Coolidge was criticized by some for his lack of engagement with the world beyond America's borders. He was reluctant to become involved in international affairs and did not support the League of Nations, a precursor to the United Nations. However, his presidency was marked by relative stability and prosperity, and he remains a respected figure in American history."
+        }  
     },
     {
         "number": 31,
         "name": "Herbert C. Hoover",
         "vicePresident": "Charles Curtis",
         "serviceTerm": "Mar. 4, 1929 - Mar. 3, 1933",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "The 31st President of the United States was Herbert Clark Hoover, born on August 10, 1874, in West Branch, Iowa. Hoover's parents, Quakers, were both of Norwegian descent, and his father died when he was just six years old. His mother's strong emphasis on education helped him develop an interest in science and engineering. After completing his studies in mining engineering, Hoover worked as a mining consultant, becoming a millionaire by the age of 40.",
+            "paragraph2": "Hoover was known for his humanitarian efforts, particularly during World War I, when he led the American Relief Administration, providing food and aid to war-torn Europe. He later served as Secretary of Commerce under Presidents Harding and Coolidge, promoting economic growth and modernizing government regulations.",
+            "paragraph3": "Hoover became president in 1929, just as the stock market began to crash, leading to the Great Depression. His attempts to stem the economic crisis with voluntary measures were largely unsuccessful, and he faced criticism for his policies, which some saw as inadequate. He was defeated for reelection in 1932 by Franklin D. Roosevelt, who implemented sweeping government interventions to address the economic crisis.",
+            "paragraph4": "After his presidency, Hoover continued to work on humanitarian efforts, serving on various commissions and advising several presidents on policy matters. He also wrote several books, including memoirs and a history of the American West. Hoover died on October 20, 1964, at the age of 90, in New York City. His legacy continues to be debated, with some praising his early humanitarian work and others criticizing his response to the Great Depression."
+        }  
     },
     {
         "number": 32,
         "name": "Franklin D. Roosevelt",
         "vicePresident": "John N. Garner, Henry A. Wallace, Harry S. Truman",
         "serviceTerm": "Mar. 4, 1933 - Apr. 12, 1945",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "The 32nd president of the United States was Franklin D. Roosevelt. Born on January 30, 1882, in Hyde Park, New York, he came from a wealthy family and attended prestigious schools before studying law at Columbia University. He was first elected to the New York State Senate in 1910, and later served as Assistant Secretary of the Navy under President Woodrow Wilson.",
+            "paragraph2": "Roosevelt's political career was defined by his leadership during the Great Depression and World War II. He was elected to the presidency in 1932, during the height of the Depression, and immediately began implementing a series of programs known as the New Deal. These programs aimed to provide relief, recovery, and reform to those affected by the economic downturn, and included initiatives such as the Civilian Conservation Corps, the National Recovery Administration, and the Social Security Act.",
+            "paragraph3": "Roosevelt was also instrumental in leading the country through World War II, after the attack on Pearl Harbor in December 1941. He worked closely with Allied leaders Winston Churchill and Joseph Stalin to develop a strategy to defeat Nazi Germany and Imperial Japan. Roosevelt also played a key role in the establishment of the United Nations, which was created in 1945 to promote international cooperation and prevent future wars.",
+            "paragraph4": "Despite his accomplishments, Roosevelt faced significant opposition during his presidency, including from conservative politicians who criticized his New Deal programs as being socialist and from some who opposed his decision to run for a fourth term. He died on April 12, 1945, just a few months before the end of the war, and was succeeded by his Vice President Harry S. Truman. Roosevelt's legacy as one of the most transformative and influential presidents in American history is widely recognized and celebrated today."
+        }  
     },
     {
         "number": 33,
         "name": "Harry S. Truman",
         "vicePresident": "Alben W. Barkley",
         "serviceTerm": "Apr. 12, 1945 - Jan. 20, 1953",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "The 33rd President of the United States was Harry S. Truman. He was born on May 8, 1884, in Lamar, Missouri. Truman's upbringing was humble, and he spent most of his youth on a farm. He worked various jobs, including clerking in a store, railroad construction, and oil drilling, before serving in World War I.",
+            "paragraph2": "Truman began his political career in 1922 as a judge in Jackson County, Missouri. In 1934, he was elected to the U.S. Senate and served until he was elected Vice President in 1944. After the death of President Franklin D. Roosevelt, Truman became President on April 12, 1945.",
+            "paragraph3": "He is perhaps best known for his decision to drop atomic bombs on the Japanese cities of Hiroshima and Nagasaki in 1945, which ultimately led to Japan's surrender and the end of World War II. He also oversaw the beginning of the Cold War and the early years of the Korean War. Truman's domestic policies included the creation of the Marshall Plan to rebuild Europe after the war and the integration of the U.S. armed forces.",
+            "paragraph4": "Truman faced many challenges during his presidency, including labor strikes, civil rights issues, and McCarthyism. Despite his controversial decisions and policies, Truman is often remembered as a decisive and honest leader who put the interests of the country before his own political gain. After leaving office, Truman returned to his hometown of Independence, Missouri, and remained active in politics until his death in 1972."
+        }  
     },
     {
         "number": 34,
         "name": "Dwight D. Eisenhower",
         "vicePresident": "Richard M. Nixon",
         "serviceTerm": "Jan. 20, 1953 - Jan. 20, 1961",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Dwight D. Eisenhower was born on October 14, 1890, in Denison, Texas. His family later moved to Kansas where he grew up. After graduating from high school, Eisenhower attended West Point Military Academy, where he excelled in sports and leadership. Upon graduation in 1915, he was commissioned as a second lieutenant and sent to San Antonio, Texas, for training.",
+            "paragraph2": "During World War I, Eisenhower served stateside as an officer and military instructor. After the war, he continued his military career and rose through the ranks. During World War II, he served as Supreme Commander of the Allied Forces in Europe and played a crucial role in the defeat of Nazi Germany. His leadership abilities and strategic vision were widely recognized and praised, and he became a national hero.",
+            "paragraph3": "After the war, Eisenhower briefly served as the President of Columbia University before being persuaded to run for President by both the Republican and Democratic parties. He won a decisive victory in the 1952 presidential election, running as a Republican. During his two terms in office, Eisenhower oversaw a period of economic growth and expansion, known as the 'Eisenhower Era.' He also played a key role in the Cold War, pursuing policies of containment and deterrence against the Soviet Union.",
+            "paragraph4": "After leaving office, Eisenhower retired to his farm in Gettysburg, Pennsylvania. He remained active in public life, serving as an advisor to several presidents and speaking out on issues such as civil rights and nuclear disarmament. He passed away on March 28, 1969, at the age of 78. Throughout his life and career, Eisenhower was known for his leadership, integrity, and dedication to public service."
+        }  
     },
     {
         "number": 35,
         "name": "John F. Kennedy",
         "vicePresident": "Lyndon B. Johnson",
         "serviceTerm": "Jan. 20, 1961 - Nov. 22, 1963",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "The 35th President of the United States was John F. Kennedy, who served from 1961 until his assassination in 1963. Born on May 29, 1917, in Brookline, Massachusetts, Kennedy was the second child of Joseph and Rose Kennedy. He attended Harvard University, graduating in 1940, before joining the U.S. Navy in 1941, serving in World War II. After the war, he became involved in politics and was elected to Congress in 1946.",
+            "paragraph2": "Kennedy became the 35th President of the United States in 1961, at the age of 43, and was the youngest person ever to be elected to the office. During his presidency, Kennedy faced many challenges, including the Cold War with the Soviet Union, the Bay of Pigs invasion in Cuba, and the Cuban Missile Crisis. He is also known for his support of the civil rights movement and his famous 'Ich bin ein Berliner' speech in Berlin, Germany.",
+            "paragraph3": "Kennedy's time in office was tragically cut short when he was assassinated on November 22, 1963, while riding in an open car in Dallas, Texas. Lee Harvey Oswald was charged with the assassination, but his motive remains a topic of debate to this day. Kennedy's death shocked the nation and the world, and he was mourned by millions of people. He is remembered as a charismatic leader who inspired many with his vision of a better world and his famous words, 'Ask not what your country can do for you, ask what you can do for your country.'",
+            "paragraph4": "Kennedy's legacy continues to influence American politics and culture to this day. His leadership style and vision for a better world have inspired generations of Americans, and his untimely death has cemented his place in history as an iconic figure. The Kennedy family continues to be a prominent political dynasty, with several members holding elected offices at the national and local levels. Kennedy's life and legacy remain an important part of American history and culture, and he is remembered as one of the most beloved and inspirational presidents in U.S. history."
+        }  
     },
     {
         "number": 36,
         "name": "Lyndon B. Johnson",
         "vicePresident": "Hubert H. Humphrey",
         "serviceTerm": "Nov. 22, 1963 - Jan. 20, 1969",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "",
+            "paragraph2": "",
+            "paragraph3": "",
+            "paragraph4": ""
+        }  
     },
     {
         "number": 37,
         "name": "Richard M. Nixon",
         "vicePresident": "Sprigo T. Agnew, Gerald R. Ford",
         "serviceTerm": "Jan. 20, 1969 - Aug. 9, 1974",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "The 37th President of the United States was Richard Nixon, who served from 1969 to 1974. Born in California in 1913, Nixon was a lawyer and a politician who rose to prominence during the Cold War era. He was known for his hard-line stance on communism and his efforts to improve relations with China and the Soviet Union.",
+            "paragraph2": "Nixon first entered politics in 1946, when he won a seat in the House of Representatives. He went on to serve as a senator and then as Vice President under Dwight D. Eisenhower from 1953 to 1961. In 1960, Nixon ran for President but lost to John F. Kennedy in a close and controversial election.",
+            "paragraph3": "Nixon's second bid for the Presidency was successful, and he was elected in 1968. During his first term in office, he worked to end the Vietnam War and improve relations with China and the Soviet Union. He also oversaw a number of domestic initiatives, including the creation of the Environmental Protection Agency and the implementation of affirmative action policies.",
+            "paragraph4": "However, Nixon's second term was marred by the Watergate scandal, in which members of his administration were caught breaking into the headquarters of the Democratic National Committee in order to steal information. Nixon initially denied any knowledge of the break-in, but evidence eventually came to light suggesting that he had been involved in a cover-up. Facing impeachment, Nixon resigned from office in 1974, becoming the first President in U.S. history to do so."
+        }  
     },
     {
         "number": 38,
         "name": "Gerald R. Ford",
         "vicePresident": "Nelson A. Rockefeller",
         "serviceTerm": "Aug. 9 1974 - Jan. 20, 1977",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "The 38th President of the United States, Gerald R. Ford, was born Leslie Lynch King Jr. on July 14, 1913, in Omaha, Nebraska. His parents divorced when he was an infant, and his mother remarried to Gerald R. Ford Sr., who legally adopted him and gave him his name. Ford attended the University of Michigan, where he was a star football player and a member of the Phi Delta Theta fraternity. He graduated in 1935 with a degree in economics and went on to study law at Yale University, earning his degree in 1941.",
+            "paragraph2": "Ford served in the U.S. Navy during World War II, rising to the rank of lieutenant commander and participating in combat operations in the Pacific theater. After the war, he returned to Michigan and became involved in Republican politics, serving in the U.S. House of Representatives from 1949 to 1973. He was known as a moderate and a pragmatist, and he rose through the ranks to become the House Minority Leader.",
+            "paragraph3": "In 1973, Ford was appointed Vice President of the United States by President Richard Nixon, following the resignation of Vice President Spiro Agnew. Just over a year later, Nixon himself resigned in the wake of the Watergate scandal, and Ford became President on August 9, 1974. Ford's presidency was marked by efforts to heal the country after the divisive Watergate scandal, as well as by foreign policy challenges such as the fall of Saigon and the final stages of the Cold War. He also faced domestic challenges such as the energy crisis and high inflation.",
+            "paragraph4": "In 1976, Ford faced a tough challenge for the Republican nomination from Ronald Reagan, but ultimately won the nomination. He went on to lose the general election to Democrat Jimmy Carter, and left office in January 1977. After his presidency, Ford remained active in public life, serving on various commissions and organizations. He also wrote his memoirs and was involved in the establishment of the Gerald R. Ford Presidential Library and Museum in Grand Rapids, Michigan. Ford passed away on December 26, 2006, at the age of 93."
+        }  
     },
     {
         "number": 39,
         "name": "James Earl Carter",
         "vicePresident": "Walter F. Mondale",
         "serviceTerm": "Jan. 20, 1977 - Jan. 20, 1981",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "The 39th President of the United States was James Earl Carter Jr., also known as Jimmy Carter, who served from 1977 to 1981. He was born on October 1, 1924, in Plains, Georgia, and grew up in a farming family. Carter attended the United States Naval Academy and served in the Navy before returning to Georgia to work on the family farm and pursue a career in politics.",
+            "paragraph2": "Carter's political career began in the Georgia State Senate in 1963, and he was elected governor of Georgia in 1971. As governor, he implemented progressive policies such as environmental protection, government reorganization, and racial integration. Carter won the Democratic presidential nomination in 1976 and defeated Republican incumbent President Gerald Ford in the general election.",
+            "paragraph3": "As president, Carter emphasized human rights and pursued a foreign policy that focused on diplomacy and peace-making. He brokered the Camp David Accords between Israel and Egypt, which led to a peace treaty between the two countries. Carter also normalized relations with China and established the Carter Doctrine, which stated that the United States would use military force to protect its interests in the Persian Gulf.",
+            "paragraph4": "Carter faced several domestic challenges during his presidency, including a stagnant economy, high inflation, and the Iran hostage crisis. In 1980, he lost his bid for re-election to Republican candidate Ronald Reagan. After leaving office, Carter remained active in public life, founding the Carter Center, a non-profit organization focused on promoting human rights and resolving conflicts around the world. He was awarded the Nobel Peace Prize in 2002 for his work in international diplomacy and human rights."
+        }  
     },
     {
         "number": 40,
         "name": "Ronald Reagan",
         "vicePresident": "George Bush",
         "serviceTerm": "Jan. 20, 1981 - Jan. 20, 1989",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Ronald Reagan was born on February 6, 1911, in Tampico, Illinois. He grew up in a poor family and worked various jobs throughout his youth. After attending Eureka College, he became a radio sports announcer and then an actor. Reagan appeared in more than 50 movies and was a successful Hollywood star before he entered politics.",
+            "paragraph2": "Reagan's political career began when he became a spokesperson for General Electric in the 1950s. He eventually turned to politics and was elected as the Governor of California in 1966, serving two terms. He was elected as the 40th President of the United States in 1980 and served two terms from 1981 to 1989.",
+            "paragraph3": "As President, Reagan implemented a conservative economic program known as Reaganomics, which included tax cuts, deregulation, and increased military spending. He was also known for his tough stance against the Soviet Union, famously calling it the 'evil empire,' and for his efforts to end the Cold War. Reagan survived an assassination attempt in 1981 and continued to serve as President until 1989.",
+            "paragraph4": "After leaving office, Reagan retired to his ranch in California and battled Alzheimer's disease in his later years. He died on June 5, 2004, at the age of 93. Reagan is remembered as a charismatic leader who restored American confidence and played a significant role in ending the Cold War."
+        }  
     },
     {
         "number": 41,
         "name": "George Bush",
         "vicePresident": "Dan Quayle",
         "serviceTerm": "Jan. 20, 1989 - Jan. 20, 1993",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "George H.W. Bush was born in Massachusetts in 1924 and grew up in Connecticut. He served in the Navy during World War II and was awarded the Distinguished Flying Cross for his bravery in combat. After the war, he attended Yale University and went on to have a successful career in the oil industry.",
+            "paragraph2": "Bush's political career began in the 1960s, when he served as a congressman from Texas. He later served as the U.S. ambassador to the United Nations and as the head of the Central Intelligence Agency (CIA) under President Gerald Ford. In 1980, he ran for the Republican presidential nomination but lost to Ronald Reagan, who later chose him as his running mate.",
+            "paragraph3": "As Vice President, Bush played an active role in foreign policy and was a strong advocate for the Reagan administration's conservative agenda. In 1988, he ran for President and won a decisive victory over Democratic candidate Michael Dukakis. During his presidency, Bush oversaw the end of the Cold War and the collapse of the Soviet Union, as well as the first Gulf War, in which he led a coalition of nations to remove Iraqi forces from Kuwait.",
+            "paragraph4": "Despite his foreign policy successes, Bush faced criticism for his handling of domestic issues, particularly the economy. He lost his bid for re-election to Bill Clinton in 1992. After leaving office, Bush remained active in public life, serving as a global ambassador for humanitarian causes and working with his son, George W. Bush, during his own presidency. He died in 2018 at the age of 94, and his legacy as a war hero and statesman continues to be celebrated."
+        }  
     },
     {
         "number": 42,
         "name": "William J. Clinton",
         "vicePresident": "Albert Gore",
         "serviceTerm": "Jan. 20, 1993 - Jan. 20, 2001",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "William Jefferson Clinton, born on August 19, 1946, was the 42nd President of the United States of America, serving from 1993 to 2001. He was born in Arkansas and grew up in a family that faced financial difficulties. Despite this, Clinton was an excellent student and went on to study at Georgetown University and later at Yale Law School.",
+            "paragraph2": "Clinton began his political career as the Attorney General of Arkansas, and later, as the Governor of Arkansas for multiple terms. In 1992, he ran for president as a Democrat and won against the incumbent Republican President, George H.W. Bush. Clinton was known for his charisma and his ability to connect with people, particularly young voters.",
+            "paragraph3": "During his presidency, Clinton focused on issues such as healthcare reform, education, and welfare reform. He also presided over the longest period of peacetime economic expansion in American history. However, Clinton's presidency was not without controversy, particularly regarding his personal life, including the Monica Lewinsky scandal, which led to his impeachment by the House of Representatives in 1998. Despite this, he remained in office and completed his second term as President in 2001.",
+            "paragraph4": "Since leaving the White House, Clinton has remained active in politics and philanthropy. He founded the Clinton Foundation, a global charity that focuses on issues such as climate change, economic development, and public health. He has also been an active supporter of his wife, Hillary Clinton's political career, including her own presidential campaigns in 2008 and 2016. Clinton remains one of the most recognizable and influential political figures in modern American history."
+        }  
     },
     {
         "number": 43,
         "name": "George W. Bush",
         "vicePresident": "Dick Cheney",
         "serviceTerm": "Jan. 20, 2001 - Jan. 20, 2009",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "George W. Bush was born on July 6, 1946 in New Haven, Connecticut, but grew up in Texas. He attended Yale University, where he earned a Bachelor of Arts degree in history in 1968. After graduation, Bush served in the Texas Air National Guard and then pursued a career in the oil industry before entering politics.",
+            "paragraph2": "In 1994, Bush was elected as the governor of Texas, serving two terms from 1995 to 2000. In 2000, he ran for president of the United States, running against Democratic nominee Al Gore. The election was controversial, with the result being disputed due to issues with vote counting in Florida. After several weeks of legal challenges, the Supreme Court ultimately ruled in Bush's favor, and he was sworn in as president on January 20, 2001.",
+            "paragraph3": "During his presidency, Bush faced numerous challenges, including the September 11, 2001 terrorist attacks, which led to the United States' involvement in wars in Afghanistan and Iraq. He also implemented a number of domestic policies, including tax cuts and education reform initiatives. Despite significant criticism and controversy, Bush remained a popular figure among many Americans throughout his presidency, with his approval ratings reaching as high as 90% following the 9/11 attacks.",
+            "paragraph4": "After leaving office in 2009, Bush returned to private life and focused on his philanthropic work. He established the George W. Bush Presidential Center in Dallas, Texas, which includes a library and museum dedicated to his presidency. He has also been an advocate for various causes, including veterans' issues and HIV/AIDS awareness. Bush has remained a prominent figure in American politics and public life, even as his presidency continues to be a subject of debate and scrutiny."
+        }  
     },
     {
         "number": 44,
         "name": "Barack H. Obama",
         "vicePresident": "Joseph R. Biden, Jr.",
         "serviceTerm": "Jan. 20, 2009 - Jan. 20, 2017",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Barack Obama is the 44th President of the United States, serving from 2009 to 2017. Born on August 4, 1961 in Honolulu, Hawaii, Obama's parents met while attending the University of Hawaii at Manoa. His father, Barack Obama Sr., was from Kenya, and his mother, Ann Dunham, was an American anthropologist.",
+            "paragraph2": "Obama graduated from Columbia University in 1983 with a degree in political science. He later moved to Chicago and became a community organizer, working for several years in low-income neighborhoods. In 1991, he graduated from Harvard Law School, where he became the first black president of the prestigious Harvard Law Review.",
+            "paragraph3": "Obama was elected to the Illinois State Senate in 1996, where he served for eight years before being elected to the United States Senate in 2004. In 2008, he ran for President of the United States as the Democratic nominee, defeating Republican nominee John McCain in the general election. He was re-elected in 2012, defeating Republican nominee Mitt Romney.",
+            "paragraph4": "As President, Obama faced a number of significant challenges, including the Great Recession, the implementation of the Affordable Care Act, and the withdrawal of American troops from Iraq. He also oversaw the successful operation to kill Osama bin Laden in 2011. During his presidency, Obama became known for his powerful speeches, his progressive policies, and his efforts to bridge the political divide in America. He was awarded the Nobel Peace Prize in 2009 for his efforts to promote international cooperation and nuclear disarmament."
+        }  
     },
     {
         "number": 45,
         "name": "Donald J. Trump",
         "vicePresident": "Michael Pence",
         "serviceTerm": "Jan. 20, 2017 - Jan 20, 2021",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "Donald Trump is the 45th president of the United States, serving from January 20, 2017, to January 20, 2021. Born on June 14, 1946, in Queens, New York City, Trump grew up in a wealthy family and attended the Wharton School of the University of Pennsylvania, where he received a degree in economics. After college, he worked for his father's real estate development firm before founding his own company, The Trump Organization, in 1980.",
+            "paragraph2": "Trump gained national recognition in the 1980s and 1990s as a real estate mogul, celebrity, and controversial figure. He expanded his business empire to include casinos, hotels, and golf courses, and hosted the reality television show 'The Apprentice' from 2004 to 2015. In 2015, he announced his candidacy for president, running on a platform focused on immigration, trade, and economic growth.",
+            "paragraph3": "Despite initially being considered a long-shot candidate, Trump won the Republican nomination and went on to defeat Democratic nominee Hillary Clinton in the 2016 presidential election, winning 304 electoral votes to Clinton's 227. During his presidency, Trump was known for his unconventional leadership style, controversial policies, and frequent use of social media to communicate with the public.",
+            "paragraph4": "Trump's presidency was marked by a number of high-profile events, including his impeachment by the House of Representatives in 2019 and his response to the COVID-19 pandemic. He also implemented a number of controversial policies, such as the travel ban on several predominantly Muslim countries, the separation of families at the southern border, and the withdrawal of the United States from the Paris climate agreement."
+        }  
     },
     {
         "number": 46,
         "name": "Joseph R. Biden, Jr.",
         "vicePresident": "Kamala Harris",
         "serviceTerm": "Jan. 20, 2021 - Present Day",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur volutpat nunc a vestibulum. Duis dignissim, enim sed auctor iaculis, velit nunc condimentum tortor, eget egestas velit metus vel dui. In hac habitasse platea dictumst. Cras convallis dignissim elit, at ornare tortor ornare vitae. Morbi rhoncus sagittis erat nec suscipit. Phasellus scelerisque nisl non metus congue suscipit. Nunc non dignissim libero. Sed volutpat finibus justo varius cursus. Nam tempus, ante id lacinia facilisis, lacus metus dictum magna, et facilisis enim massa vel dolor. Aenean condimentum dolor eget turpis mollis sodales. Integer orci sapien, accumsan sit amet lectus ut, aliquet malesuada libero."
+        "biography": {
+            "paragraph1": "As his term is ongoing, history is still being written, and his biography is yet to be fully formed. There are many significant events and actions that will shape his legacy, and it will take time to fully assess his impact on the nation and the world. Thus, we will continue to observe and document his presidency, and this section will be updated with more information upon the conclusion of his term.",
+            "paragraph2": "",
+            "paragraph3": "",
+            "paragraph4": ""
+        }  
     }
 
 ]

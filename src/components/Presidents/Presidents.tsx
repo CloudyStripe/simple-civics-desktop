@@ -15,7 +15,14 @@ export interface PresidentsInterface {
     name: string;
     vicePresident: string;
     serviceTerm: string;
-    biography: string;
+    biography: PresidentBio;
+}
+
+export interface PresidentBio {
+    paragraph1: string,
+    paragraph2: string,
+    paragraph3: string,
+    paragraph4: string,
 }
 
 export const Presidents: React.FC = () => {

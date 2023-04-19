@@ -6,21 +6,16 @@ import { Container } from "react-bootstrap";
 import { BootstrapImage } from "../Image/BootstrapImage";
 import { Star } from 'react-bootstrap-icons'
 import './PresidentsDetails.scss';
+import { PresidentsInterface } from "./Presidents";
 
-export interface PresidentObject {
-    number: number;
-    name: string;
-    vicePresident: string;
-    serviceTerm: string;
-    biography: string;
-}
+
 
 export const PresidentDetails: React.FC = () => {
 
     const { id } = useParams();
     const convertedId = Number(id)
 
-    let selectedPresident: PresidentObject | null = null;
+    let selectedPresident: PresidentsInterface | null = null;
 
     if (id) {
         selectedPresident = presidents[convertedId]
@@ -47,14 +42,21 @@ export const PresidentDetails: React.FC = () => {
                     </div>
                 </Container>
             </Container>
-            <div className="fauxBorder mt-5"/>
+            <div className="fauxBorder mt-5" />
             <Container className="bioContainer">
                 <h2 className="text-center py-5">Biography</h2>
-                <p className="pb-5">{selectedPresident ? selectedPresident.biography : ''}</p>
+                <div className="pb-5">{selectedPresident ?
+                    <>
+                        <p>{selectedPresident.biography.paragraph1}</p>
+                        <p>{selectedPresident.biography.paragraph2}</p>
+                        <p>{selectedPresident.biography.paragraph3}</p>
+                        <p>{selectedPresident.biography.paragraph4}</p>
+                    </> : ''}
+                </div>
                 <div className="d-flex text-center starContainer pageEndPadding">
-                        <Star className="me-3" color="navy" size={25} />
-                        <Star size={25} />
-                        <Star className="ms-3" color="maroon" size={25} />
+                    <Star className="me-3" color="navy" size={25} />
+                    <Star size={25} />
+                    <Star className="ms-3" color="maroon" size={25} />
                 </div>
             </Container>
         </div>
