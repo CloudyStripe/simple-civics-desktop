@@ -10,7 +10,14 @@ export interface LessonDetail {
     "lesson-number": number;
     title: string;
     summary: string;
-    body: string;
+    body: LessonContent
+}
+
+export interface LessonContent {
+    paragraph1: string,
+    paragraph2: string,
+    paragraph3: string,
+    paragraph4: string,
 }
 
 export const Lesson: React.FC = () => {
@@ -19,7 +26,10 @@ export const Lesson: React.FC = () => {
     let currentLesson: LessonDetail | null = null;
     let convertedLessonNumber: number = 0
     let lessonTitle: string = '';
-    let lessonBody: string = '';
+    let lessonBody1: string = '';
+    let lessonBody2: string = '';
+    let lessonBody3: string = '';
+    let lessonBody4: string = '';
     let lastLesson: number = 0;
     let nextLesson: number = 0;
     const lessonLength: number = lessons.length
@@ -28,7 +38,10 @@ export const Lesson: React.FC = () => {
         convertedLessonNumber = +lessonNumber
         currentLesson = lessons[convertedLessonNumber - 1]
         lessonTitle = currentLesson["title"]
-        lessonBody = currentLesson["body"]
+        lessonBody1 = currentLesson["body"]["paragraph1"]
+        lessonBody2 = currentLesson["body"]["paragraph2"]
+        lessonBody3 = currentLesson["body"]["paragraph3"]
+        lessonBody4 = currentLesson["body"]["paragraph4"]
         lastLesson = convertedLessonNumber - 1;
         nextLesson = convertedLessonNumber + 1;
     }
@@ -36,10 +49,13 @@ export const Lesson: React.FC = () => {
     return (
         <div className="lessonContainer">
             <div className="jumbotron" />
-            <h1 className="text-center py-4">{`${lessonTitle}`}</h1>
+            <h1 className="text-center py-4">{lessonTitle}</h1>
             <Container>
                 <Container className="bodyContainer pb-5">
-                    {`${lessonBody}`}
+                    <p>{lessonBody1}</p>
+                    <p>{lessonBody2}</p>
+                    <p>{lessonBody3}</p>
+                    <p>{lessonBody4}</p>
                 </Container>
                 <Container className="buttonContainer text-center pb-5">
                     <Link to={`/lesson/${lastLesson}`}>

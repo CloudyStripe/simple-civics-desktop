@@ -45,7 +45,7 @@ import President44 from "../../images/portraits/44.jpg";
 import President45 from "../../images/portraits/45.jpg";
 import President46 from "../../images/portraits/46.jpg";
 
-export const PresidentPortraitsArray: string[] = [
+export const PresidentPortraitsArray = [
     President1,
     President2,
     President3,
