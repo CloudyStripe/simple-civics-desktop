@@ -50,8 +50,8 @@ export const Presidents: React.FC = () => {
                 <BootstrapInput className={'presidentSearch d-flex my-2 my-sm-0 w-50'} onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleSearch(e.target.value)} type={'text'} placeholder={'Search...'}></BootstrapInput>
             </Container>
             <ScrollContainer className='pt-1 pt-sm-4' horizontal={true} vertical={false}>
-                <Stack className="stack" direction="horizontal" gap={5}>
-                    {presidentsArray.map((x, i) => <div className={`individual-presidents d-flex flex-column align-items-center ${i === 0 ? `firstPresidentMargin` : ``}`}>
+                <Stack className="stack" direction="horizontal">
+                    {presidentsArray.map((x, i) => <div className={`individual-presidents pe-5 d-flex flex-column align-items-center ${i === 0 ? 'firstPresidentMargin' : ''}`}>
                         <Link to={`/PresidentsDetails/${x.number - 1}`}>
                             <BootstrapImage
                                 className={'portrait'}

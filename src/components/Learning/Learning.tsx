@@ -3,6 +3,8 @@ import { Card, Container, Placeholder, Stack } from "react-bootstrap";
 import { BootstrapCard } from "../Card/BootstrapCard";
 import ScrollContainer from 'react-indiana-drag-scroll';
 import Capitol from '../../images/capitol.jpeg';
+import { lessonImagesArray } from "./LessonImagesExport";
+import Constitution from '../../images/lessons/constitution.jpeg'
 import { BootstrapModal } from "../Modal/Modal";
 import { lessonInfo, getLessons, udpateLessons } from "../../api/LessonsService";
 import { BootstrapButton } from "../BootstrapButton";
@@ -122,13 +124,13 @@ export const Learning: React.FC = () => {
             <ScrollContainer horizontal={true} vertical={false}>
                 <Stack style={{ height: '60vh' }} direction="horizontal" gap={5}>
                     {!isLoadingLessons && lessons.map((x, i) => (
-                        <div key={x["lesson-number"]} className={`d-flex flex-column align-items-center cardSizing ${x["lesson-number"] === 1 ? `firstCardMargin` : ``}`}>
+                        <div key={x["lesson-number"]} className={`d-flex pe-5 flex-column align-items-center cardSizing ${x["lesson-number"] === 1 ? 'firstCardMargin' : ''} ${x["lesson-number"] === 12 ? 'me-3' : ''}`}>
                             <Link to={`/lesson/${x["lesson-number"]}`}>
                                 <BootstrapCard
                                     className="cardSizing"
                                     title={x.title}
                                     variant="top"
-                                    src={Capitol} >
+                                    src={lessonImagesArray[i]} >
                                     {x.summary}
                                 </BootstrapCard>
                             </Link>
