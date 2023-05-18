@@ -21,7 +21,9 @@ export const Learning: React.FC = () => {
     const completedCountRef = useRef<number>(0)
     const [showModal, setShowModal] = useState<boolean>(false)
     const buttonCollection = useRef<(HTMLButtonElement | null)[]>([]);
-    const { user, isLoading, isAuthenticated, getAccessTokenSilently } = useAuth0();
+    const { user, isLoading, isAuthenticated, getAccessTokenSilently, getAccessTokenWithPopup } = useAuth0();
+
+    const congratsMessage: string = "Congratulations! You've completed the Simply Civics curriculum, and we applaud your dedication to becoming an informed citizen. Armed with your newfound knowledge, it's time to take the next step. Share your insights, ask questions, and participate in meaningful discussions that shape our society. Together, let's turn knowledge into action and make a difference in our communities. Join the conversation today and be the change you wish to see!"
 
     useEffect(() => {
         let completedCount: number = 0;
@@ -40,7 +42,7 @@ export const Learning: React.FC = () => {
             const retrieveLessons = async () => {
                 const userEmail = user.email || ''
                 const accessToken = await getAccessTokenSilently({
-                    audience: 'http://localhost:3001'
+                    audience: 'https://simply-civics-api.herokuapp.com/'
                 });
                 const results = await getLessons(userEmail, accessToken)
                 setLessonStatus(results)
@@ -90,7 +92,7 @@ export const Learning: React.FC = () => {
                 newLessonState[`lesson${lessonIndex + 1}` as keyof lessonInfo] = !(newLessonState[`lesson${lessonIndex + 1}` as keyof lessonInfo]);
 
                 const accessToken = await getAccessTokenSilently({
-                    audience: 'http://localhost:3001'
+                    audience: 'https://simply-civics-api.herokuapp.com/'
                 })
                 await udpateLessons(userEmail, newLessonState, accessToken)
                 const results = await getLessons(userEmail, accessToken)
@@ -200,7 +202,7 @@ export const Learning: React.FC = () => {
             {(!isAuthenticated && !isLoading) && (
                 <div className="progressTrackerNotification">Create an account to track your progress...</div>
             )}
-            <BootstrapModal className="modalPadding" title="Congratulations" content="TEST TEST TEST TEST" show={showModal}></BootstrapModal>
+            <BootstrapModal className="modalPadding" title="Congratulations" content={congratsMessage} show={showModal}></BootstrapModal>
         </div>
     )
 }

@@ -14,11 +14,10 @@ export const About: React.FC = () => {
             <div className="about-content m-auto position-relative">
                 <BootstrapImage className="border border-dark mw-100 m-auto lincoln-image" rounded={true} src={Lincoln}/>
                 <BootstrapCard className="position-absolute about-card" title="Simply Civics"> 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                We are delighted to introduce you to an inclusive, online platform that promotes civic engagement while providing unbiased information.
+                Our mission is to make civic education accessible to all, empowering individuals like you to become informed and active participants in their communities. 
+                Whether you're passionate about politics, governance, or simply want to deepen your understanding of how society functions, Simply Civics offers a comprehensive range of free resources and tools to support your journey. 
+                Start learning today.
                 </BootstrapCard>
             </div> 
         </div>

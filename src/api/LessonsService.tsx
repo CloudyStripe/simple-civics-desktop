@@ -15,7 +15,7 @@ export interface lessonInfo {
 
 export const getLessons = async (userID: string, accessToken: any): Promise<lessonInfo> => {
     try {
-        const res = await fetch(`http://localhost:3001/getLearning/${userID}`, {
+        const res = await fetch(`https://simply-civics-api.herokuapp.com/getLearning/${userID}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ export const getLessons = async (userID: string, accessToken: any): Promise<less
 
 export const udpateLessons = async (userID: string, updatedLesson: lessonInfo, accessToken: any): Promise<string> => {
     try {
-        const res = await fetch(`http://localhost:3001/updateLearning/${userID}`, {
+        const res = await fetch(`https://simply-civics-api.herokuapp.com/updateLearning/${userID}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
