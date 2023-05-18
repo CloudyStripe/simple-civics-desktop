@@ -43,6 +43,7 @@ import President42 from "../../images/portraits/42.jpg";
 import President43 from "../../images/portraits/43.jpg";
 import President44 from "../../images/portraits/44.jpg";
 import President45 from "../../images/portraits/45.jpg";
+import President46 from "../../images/portraits/46.jpg";
 
 export const PresidentPortraitsArray = [
     President1,
@@ -89,5 +90,6 @@ export const PresidentPortraitsArray = [
     President42,
     President43,
     President44,
-    President45
+    President45,
+    President46,
 ]
