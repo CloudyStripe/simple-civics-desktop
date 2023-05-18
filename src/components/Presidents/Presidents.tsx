@@ -64,11 +64,6 @@ export const Presidents: React.FC = () => {
                     </div>)}
                 </Stack>
             </ScrollContainer>
-            <div className='flag p-absolute'>
-                <BootstrapImage
-                    src={flag}
-                ></BootstrapImage>
-            </div>
         </div>
     )
 
