@@ -6,7 +6,6 @@ import { BootstrapImage } from '../Image/BootstrapImage';
 import { BootstrapInput } from '../Input/BootstrapInput';
 import { PresidentPortraitsArray } from './PresidentPortraitsExport';
 import presidents from './Presidents.json';
-import flag from '../../images/american-flag.png';
 import { Link } from 'react-router-dom';
 import './Presidents.scss';
 
