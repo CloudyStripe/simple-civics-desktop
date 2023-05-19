@@ -54,7 +54,7 @@ export const PresidentDetails: React.FC = () => {
                     </> : ''}
                 </div>
                 <Container className="buttonContainer text-center pb-5">
-                    <Link to={`/PresidentDetails/${convertedId - 1}`}>
+                    <Link to={`/PresidentsDetails/${convertedId - 1}`}>
                         <BootstrapButton className={`navButton me-5 ${convertedId === 0 ? `hideButton` : ``}`}>
                             Back
                         </BootstrapButton>
